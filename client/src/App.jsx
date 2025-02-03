@@ -41,7 +41,10 @@ function App() {
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Case Studies <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  Case Studies 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill ms-1" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                  </svg>
                 </a>
 
                 <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
@@ -58,14 +61,15 @@ function App() {
                   <li class="mb-2"><a class="dropdown-item" href="Solution-services.html">Problems, Solution and Services
                     </a></li>
                 </ul>
-
-
               </li>
+
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  Services
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill ms-1" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                  </svg>
                 </a>
-
 
                 <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                   <li class="mb-2"><a class="dropdown-item" href="mobileapp.html">Mobile App Development</a></li>
@@ -75,10 +79,8 @@ function App() {
                   <li class="mb-2"><a class="dropdown-item" href="product.html">Product Design</a></li>
                   <li class="mb-2"><a class="dropdown-item" href="digital.html">Digital Marketing</a></li>
                 </ul>
-
-
-
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="career.html">Career</a>
               </li>
@@ -197,6 +199,35 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section class="bg-image-service common-padding border" style={{background:"linear-gradient(90deg, #253695,#b12e33)"}}>
+        <div class="container">
+          <div class="row service-section align-items-center">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="https://www.ameotech.com/images/company-service-image-min.png" alt="Company service overview" height="230"/>
+            </div>
+            
+            <div class="col-lg-6 right-section ps-0 ps-lg-5" id="service-center">
+              <h2 class="common-headings" id="comp-service-title">Company Services</h2>
+              <p id="company-service-para">
+                At Ameotech, we deliver high-quality web development services from the early conception stage to tech
+                support. We aim to turn your vision into workable features by offering a comprehensive range of software
+                development services, including custom web development, mobile app development, software project management,
+                UX design and prototyping, testing (load &amp; performance testing), and compliance. We work with technologies
+                such as Node JS, Python, Django, and more to develop problem-solving products.
+              </p>
+              <a href="./services.html">
+                <button class="btn btn-primary common-btn" id="service-btn">
+                  Know more...
+                </button>
+              </a>
+        
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
     </>
   )
 }
