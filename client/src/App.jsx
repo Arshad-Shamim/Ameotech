@@ -151,6 +151,52 @@ function App() {
         </div>
       </div>
     </div>
+
+    {/* box4 */}
+    <section class="common-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 core-title text-center">
+              <h2 class="common-headings">Core Values</h2>
+            </div>
+          </div>
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://www.ameotech.com/images/Empowerment-image.webp" class="card-img-top" alt="Empowerment" style={{height:"200px",objectFit:"cover"}}/>
+                <div class="card-body" style={{height:"150px",overflow:"hidden"}}>
+                  <h5 class="card-title" id="empower-one">Empowerment</h5>
+                  <p class="card-text">
+                  We empower our clientele to think big and be market leaders by helping them deliver great services through our innovative custom digital solutions. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://www.ameotech.com/images/Reflection-img-new.svg" class="card-img-top" alt="Empowerment" style={{height:"200px",objectFit:"cover"}}/>
+                <div class="card-body" style={{height:"150px",overflow:"hidden"}}>
+                  <h5 class="card-title" id="empower-one">Reflection</h5>
+                  <p class="card-text">
+                  We believe in reflecting on our practices to continually improve and provide the best service possible.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://www.ameotech.com/images/Responsiblity-image.webp" class="card-img-top" alt="Empowerment" style={{height:"200px",objectFit:"cover"}}/>
+                <div class="card-body" style={{height:"150px",overflow:"hidden"}}>
+                  <h5 class="card-title" id="empower-one">Responsibility</h5>
+                  <p class="card-text">
+                  We take responsibility for our actions and the quality of the solutions we provide. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
