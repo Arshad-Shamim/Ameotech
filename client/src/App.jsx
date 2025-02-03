@@ -2,6 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import './responsive.css'
+import './pipToggle.css'
+import './viedo.css'
+import './css2.css'
+import './font-awsome.css'
+
 import 'bootstrap/dist/css/bootstrap.min.css';    //after installing npm i bootstarp;
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // For JavaScript
 
@@ -10,6 +16,8 @@ function App() {
 
   return (
     <>
+
+    {/* block1 */}
     <header>
       <nav class="navbar navbar-expand-lg bg-white border">
         <div class="container">
@@ -86,33 +94,63 @@ function App() {
       </nav>
     </header>
 
-
+    {/* block2 */}
     <section class="hero-section">
     {/* <!-- Hero Content --> */}
-    <div class="hero-content">
-      <div class="container py-0">
-        {/* <!-- Placeholder for the Video (will be added dynamically) --> */}
-        <div class="hero-video-container">
-        <video autoplay="" loop="" muted="" class="hero-video">
-          <source src="https://www.ameotech.com/images/tech-V01.mp4" type="video/mp4"/>
-          Your browser does not support the video tag.
-        </video></div>
-  
-        <div class="row align-items-center g-5 py-5 ps-3">
-          <div class="col-12 col-lg-8 text-center text-lg-start heading-text d-flex align-items-start">
-            <h1 class="text-start" id="top-heading">
-              Innovative Digital Solutions for
-              <span id="home-colored-text">Business Growth</span>
-            </h1>
-            <p class="text-start w-100" id="top-heading-para">
-              Established in 2010, Ameotech Informatics is a reputable software
-              development firm based in Mohali.
-            </p>
+      <div class="hero-content">
+        <div class="container py-0">
+          {/* <!-- Placeholder for the Video (will be added dynamically) --> */}
+          <div class="hero-video-container">
+          <video autoplay="" loop="" muted="" class="hero-video">
+            <source src="https://www.ameotech.com/images/tech-V01.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video></div>
+    
+          <div class="row align-items-center g-5 py-5 ps-3">
+            <div class="col-12 col-lg-8 text-center text-lg-start heading-text d-flex align-items-start">
+              <h1 class="text-start" id="top-heading">
+                Innovative Digital Solutions for
+                <span id="home-colored-text">Business Growth</span>
+              </h1>
+              <p class="text-start w-100" id="top-heading-para">
+                Established in 2010, Ameotech Informatics is a reputable software
+                development firm based in Mohali.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+    </section>
+    
+    {/* block3 */}
+    <div className='container'>
+      <div class="custom-container">
+        <div class="row text-center">
+          <div class="col-md-3">
+            <p class="big-number"><strong>14+ </strong></p>
+            <p>
+              Years of Experience</p>
+          </div>
+          <div class="col-md-3">
+            <p class="big-number"><strong>97% </strong></p>
+            <p>Returning Client Rate</p>
+          </div>
+          <div class="col-md-3">
+            <p class="big-number"><strong>4.2</strong></p>
+            <p> Employee Happiness Index</p>
+          </div>
+          <div class="col-md-3">
+            <p class="big-number"><strong>90+</strong></p>
+            <p> Awards and Certifications</p>
+          </div>
+        </div>
+
+        {/* <!-- Button below the row --> */}
+        <div class="text-center mt-4">
+          <a href="./contact.html" class="btn btn-primary" id="consult-btn">Get <span>free</span> consultation</a>
+        </div>
+      </div>
     </div>
-  </section>
     </>
   )
 }
