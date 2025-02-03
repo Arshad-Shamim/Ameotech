@@ -23,8 +23,6 @@ function App() {
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="https://www.ameotech.com/images/ameotech-logo-color.svg" alt="logo"/>
-    
-
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,7 +44,6 @@ function App() {
                     <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
                   </svg>
                 </a>
-
                 <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                   <li class="mb-2"><a class="dropdown-item" href="casestudy.html">Healthcare Solution </a></li>
                   <li class="mb-2"><a class="dropdown-item" href="lyc.html">Social Wellness Application </a></li>
@@ -70,7 +67,6 @@ function App() {
                     <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
                   </svg>
                 </a>
-
                 <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                   <li class="mb-2"><a class="dropdown-item" href="mobileapp.html">Mobile App Development</a></li>
                   <li class="mb-2"><a class="dropdown-item" href="webdevelop.html">Web App Development</a></li>
@@ -123,6 +119,7 @@ function App() {
         </div>
       </div>
     </section>
+
     
     {/* block3 */}
     <div className='container'>
@@ -130,8 +127,7 @@ function App() {
         <div class="row text-center">
           <div class="col-md-3">
             <p class="big-number"><strong>14+ </strong></p>
-            <p>
-              Years of Experience</p>
+            <p>Years of Experience</p>
           </div>
           <div class="col-md-3">
             <p class="big-number"><strong>97% </strong></p>
@@ -153,6 +149,7 @@ function App() {
         </div>
       </div>
     </div>
+
 
     {/* box4 */}
     <section class="common-padding">
@@ -200,6 +197,7 @@ function App() {
         </div>
       </section>
 
+
       {/* box5 */}
       <section class="bg-image-service common-padding border" style={{background:"linear-gradient(90deg, #253695,#b12e33)"}}>
         <div class="container">
@@ -228,86 +226,87 @@ function App() {
         </div>
       </section>
 
+
       {/* box6 */}
       <section class="common-padding">
         <div class="container">     
-        <div class="choose p-0 pb-md-4 mx-auto text-center">
-          <h2 class="common-headings" id="choose-us">Why Choose Us?</h2>
-          <p>
-            We are just as good with testing as we are with developing. You also
-            receive ongoing support for any feature add-ons as well as OS and
-            security upgrade compatibility.
-          </p>
+          <div class="choose p-0 pb-md-4 mx-auto text-center">
+            <h2 class="common-headings" id="choose-us">Why Choose Us?</h2>
+            <p>
+              We are just as good with testing as we are with developing. You also
+              receive ongoing support for any feature add-ons as well as OS and
+              security upgrade compatibility.
+            </p>
+          </div>
         </div>
-      </div>
 
-    <div class="container ">
-      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 gx-4 gy-4">
-        <div class="col">
-          <div class="card choose-card-new">
-            <img src="https://www.ameotech.com/images/dedication-img-comp.webp" class="card-img-top" alt="Image 1"/>
-            <div class="card-body">
-              <h5 class="card-title text-center text-lg-start">Dedication</h5>
-              <p class="card-text  card-choose-us">Dedication is the foundation of success in the printing and typesetting
-                industry. It drives us to deliver quality, embrace innovation, and exceed expectations. </p>
-            </div>
+
+
+        <div class="container ">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 gx-4 gy-4">
+            <div class="col">
+              <div class="card choose-card-new">
+                <img src="https://www.ameotech.com/images/dedication-img-comp.webp" class="card-img-top" alt="Image 1"/>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-lg-start">Dedication</h5>
+                  <p class="card-text  card-choose-us">Dedication is the foundation of success in the printing and typesetting
+                    industry. It drives us to deliver quality, embrace innovation, and exceed expectations. </p>
+                </div>
+              </div>
+            </div>  
+
+            <div class="col">
+              <div class="card choose-card-new">
+                <img src="https://www.ameotech.com/images/custom-solution-img.svg" class="card-img-top" alt="Image 1"/>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-lg-start">Custom Solutions</h5>
+                  <p class="card-text  card-choose-us">Offering custom solutions tailored to meet your unique needs, we combine creativity, precision, and expertise to deliver  </p>
+                </div>
+              </div>
+            </div>  
+
+            <div class="col">
+              <div class="card choose-card-new">
+                <img src="https://www.ameotech.com/images/result-card-img.png" class="card-img-top" alt="Image 1"/>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-lg-start">Results</h5>
+                  <p class="card-text  card-choose-us">Focused on delivering outstanding and innovative results, we ensure every project meets the highest standards of  </p>
+                </div>
+              </div>
+            </div>  
+
+            <div class="col">
+              <div class="card choose-card-new">
+                <img src="https://www.ameotech.com/images/Testing%20-Support-img.png" class="card-img-top" alt="Image 1"/>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-lg-start">Testing & Support</h5>
+                  <p class="card-text  card-choose-us">Dedicated to providing reliable testing and support, we ensure seamless performance, quick resolutions, and continuous </p>
+                </div>
+              </div>
+            </div>  
+
+            <div class="col">
+              <div class="card choose-card-new">
+                <img src="https://www.ameotech.com/images/Legitimacy-card-img.svg" class="card-img-top" alt="Image 1"/>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-lg-start">Legitimacy</h5>
+                  <p class="card-text  card-choose-us">Committed to upholding the highest standards of legitimacy, we ensure transparency, trust, and integrity in every </p>
+                </div>
+              </div>
+            </div>  
+
+            <div class="col">
+              <div class="card choose-card-new">
+                <img src="https://www.ameotech.com/images/Transparency-card-img.svg" class="card-img-top" alt="Image 1"/>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-lg-start">Transparency</h5>
+                  <p class="card-text  card-choose-us">Driven by transparency and integrity, we ensure clear communication, open processes, and honest practices in every </p>
+                </div>
+              </div>
+            </div>  
           </div>
-        </div>  
-
-        <div class="col">
-          <div class="card choose-card-new">
-            <img src="https://www.ameotech.com/images/custom-solution-img.svg" class="card-img-top" alt="Image 1"/>
-            <div class="card-body">
-              <h5 class="card-title text-center text-lg-start">Custom Solutions</h5>
-              <p class="card-text  card-choose-us">Offering custom solutions tailored to meet your unique needs, we combine creativity, precision, and expertise to deliver  </p>
-            </div>
-          </div>
-        </div>  
-
-        <div class="col">
-          <div class="card choose-card-new">
-            <img src="https://www.ameotech.com/images/result-card-img.png" class="card-img-top" alt="Image 1"/>
-            <div class="card-body">
-              <h5 class="card-title text-center text-lg-start">Results</h5>
-              <p class="card-text  card-choose-us">Focused on delivering outstanding and innovative results, we ensure every project meets the highest standards of  </p>
-            </div>
-          </div>
-        </div>  
-
-        <div class="col">
-          <div class="card choose-card-new">
-            <img src="https://www.ameotech.com/images/Testing%20-Support-img.png" class="card-img-top" alt="Image 1"/>
-            <div class="card-body">
-              <h5 class="card-title text-center text-lg-start">Testing & Support</h5>
-              <p class="card-text  card-choose-us">Dedicated to providing reliable testing and support, we ensure seamless performance, quick resolutions, and continuous </p>
-            </div>
-          </div>
-        </div>  
-
-        <div class="col">
-          <div class="card choose-card-new">
-            <img src="https://www.ameotech.com/images/Legitimacy-card-img.svg" class="card-img-top" alt="Image 1"/>
-            <div class="card-body">
-              <h5 class="card-title text-center text-lg-start">Legitimacy</h5>
-              <p class="card-text  card-choose-us">Committed to upholding the highest standards of legitimacy, we ensure transparency, trust, and integrity in every </p>
-            </div>
-          </div>
-        </div>  
-
-        <div class="col">
-          <div class="card choose-card-new">
-            <img src="https://www.ameotech.com/images/Transparency-card-img.svg" class="card-img-top" alt="Image 1"/>
-            <div class="card-body">
-              <h5 class="card-title text-center text-lg-start">Transparency</h5>
-              <p class="card-text  card-choose-us">Driven by transparency and integrity, we ensure clear communication, open processes, and honest practices in every </p>
-            </div>
-          </div>
-        </div>  
-      </div>
-    </div>
-  </section>
-
-
+        </div>
+      </section>
     </>
   )
 }
