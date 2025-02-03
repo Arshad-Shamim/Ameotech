@@ -2,12 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import './responsive.css'
-import './pipToggle.css'
-import './viedo.css'
-import './css2.css'
-import './font-awsome.css'
-
 import 'bootstrap/dist/css/bootstrap.min.css';    //after installing npm i bootstarp;
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // For JavaScript
 
