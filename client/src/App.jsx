@@ -302,6 +302,7 @@ function App() {
         </div>
       </section>
 
+      {/* box7 */}
       <section className='container-fluid row'>
 
         <div className='col-12 col-md-6 container-fluid'>
@@ -350,6 +351,7 @@ function App() {
         </div>
       </section>
 
+      {/* box8 */}
       <section className='container-fluid row my-4'>
 
         <div className='container col-12 col-md-6'>
@@ -594,6 +596,88 @@ function App() {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="tech-div-section" class="common-padding">
+    <div class="container">
+      <div id="tech-div">
+        <h2 class="common-headings">Technologies We Work On</h2>
+        <p>Get work done in 200+ different technologies</p>
+      </div>
+
+
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/react-native.webp" alt="react-native" class="img-fluid" height="70"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/python-logo.svg" alt="python-logo" class="img-fluid" id="python-img"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/dotnet.svg" alt="dotnet" class="img-fluid"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/Swift-new.webp" alt="Swift" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/IOS-new.webp" alt="IOS" class="img-fluid"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/Android-new.webp" alt="Android" class="img-fluid"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/Ionic-new.webp" alt="Ionic" class="img-fluid"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/Flutter-new.webp" alt="Flutter" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/django-logo-positive.svg" alt="django-logo-positive" class="img-fluid"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/mongodb-logo.svg" alt="mongodb-logo" class="img-fluid"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/aws-logo.svg" alt="aws" class="img-fluid" id="aws-img"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/sql-logo.svg" alt="Flutter" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/javascript.svg" alt="javascript" class="img-fluid"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/ml%201.svg" alt="ml" class="img-fluid" id="machine-learning-img"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/devops-logo.svg" alt="DevOps" class="img-fluid" id="devops-img"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/angular.svg" alt="angular" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/azure-logo.svg" alt="azure-logo" class="img-fluid" id="azure-img"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/html5.svg" alt="html" class="img-fluid" id="machine-learning-img"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/CSS3_-newww%201.svg" alt="CSS3" class="img-fluid" id="css-img"/>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+          <img src="https://www.ameotech.com/images/AI-logo.svg" alt="AI-logo" class="img-fluid" id="ai-img"/>
+        </div>
       </div>
     </div>
   </section>
