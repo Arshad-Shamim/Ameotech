@@ -369,6 +369,234 @@ function App() {
           <img src="https://www.ameotech.com/images/revolution-comp.png" alt="loading...." className='col-12 my-4 my-md-0'/>
         </div>
       </section>
+
+      <section class="slider-bg-main">
+    <div class="container-fluid mt-5 common-padding">
+     <div id="myCarousel" class="carousel slide mb-6 bg" data-bs-ride="carousel">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators" id="move-down-carousal">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          {/* <!-- Your slides here --> */}
+        </div>
+      </div>
+        {/* <!-- Title placed outside the carousel items --> */}
+       
+
+        <div class="carousel-inner">
+          <div class="text-center mt-3">
+            <h2 id="exp-review">
+              Our Experience <br/>
+              Clients Satisfaction
+            </h2>
+          </div>
+          <div class="carousel-item text-center">
+           
+            {/* <!-- <img src="./images/slider-one-img.webp" alt="slider-one-img" class="d-block mx-auto" style="width: 70%;"> --> */}
+            <div class="col-lg-6 offset-lg-3">
+          
+              
+              {/* <!-- Slider for the second column --> */}
+              <div class="testimonial-slide client-slider-section">
+                <div class="container">
+                  <div class="slider-container">
+                    <div class="slide-item">
+                      
+                      <ul class="list-inline">
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      </ul>
+                      <p class="text-white mb-3 text-left client-msg">
+                        Had some very specific requests for design of my UX/UI
+                        and was interested in getting it into a staging
+                        environment to have some static pages done up. Good
+                        work.
+                        <span id="dots">...</span>
+                        <span id="more">
+                          While it wasn't always right on the first try,
+                          that was partially due to me passing over Balsamiq
+                          mockups. The end result was good quality work. Spend a
+                          little more time on the discussions, planning things
+                          out, sending over very specific instructions or design,
+                          and Jatin, and this firm (Ameotech) are absolutely a
+                          good company to work with.
+                        </span>
+                        <span id="read-more-link" onclick="myFunction1()">Read more</span>
+                      </p>
+                      <div class="image-content d-flex">
+                        <div>
+                          <img class="client-profile" src="https://www.ameotech.com/images/Derek%20Thomas.svg" alt="Client Image"/>
+                        </div>
+                        <div class="ms-2 text-white slider-content-new mt-2">
+                          <h6>Derek Thomas</h6>
+                          <p>CEO at Virtue security</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+         
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center active">
+            {/* <!-- <img src="./images/slider-two-img.webp" alt="slider-two-img" class="d-block mx-auto" style="width: 70%;"> --> */}
+            <div class="col-lg-6 offset-lg-3">
+              {/* <!-- Slider for the second column --> */}
+              <div class="testimonial-slide client-slider-section">
+                <div class="slider-container">
+                  <div class="slide-item">
+                    <ul class="list-inline">
+                    <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                    </ul>
+                    <p class="text-white mb-3 text-left client-msg">
+                      As a Full Stack Python Web Developer, this supplier has been responsible
+                      for managing the interchange of data between the server and the users of a
+                      coupon website, targeting the UK online retail market, and a web hosting
+                      site targeting the USA.
+                      <span id="dots1">...</span>
+                      <span id="more1">
+                        His primary focus has been the development of all server-side logic, ensuring high performance
+                        and responsiveness to requests from the front-end. He has also been responsible for building and
+                        integrating the front-end elements built. Though at the start of the project there was a serious
+                        underestimation of the amount of work involved.
+                      </span>
+                      <span id="read-more-link1" onclick="myFunction2()">Read more</span>
+                    </p>
+                    <div class="image-content d-flex">
+                      <div>
+                        <img class="client-profile" src="https://www.ameotech.com/images/Alex.svg" alt="Client Image"/>
+                      </div>
+                      <div class="ms-2 text-white slider-content-new mt-2">
+                        <h6>Alex Papaconstantinou</h6>
+                        <p>Owner of Wikigains (UK top coupon website)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <div class="col-lg-6 offset-lg-3">
+              {/* <!-- Slider for the second column --> */}
+              <div class="testimonial-slide client-slider-section">
+                <div class="slider-container">
+                  <div class="slide-item">
+                    <ul class="list-inline">
+                    <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                    </ul>
+                    <p class="text-white mb-3 text-left client-msg">
+                      The company is happy with Ameotech Informatics’ quality of work and performance. They follow
+                      processes well and deliver on time. The end customers also praise their work. The team has proven
+                      to be extremely reliable, and their resources are great developers. Overall, the engagement is a
+                      success.
+                    </p>
+                    <div class="image-content d-flex">
+                      <div>
+                        <img class="client-profile" src="https://www.ameotech.com/images/Shachindra.svg" alt="Client Image"/>
+                      </div>
+                      <div class="ms-2 text-white slider-content-new mt-2">
+                        <h6>Shachindra agarwal</h6>
+                        <p>President &amp; CEO – SWStrategies LLC</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <div class="col-lg-6 offset-lg-3">
+              {/* <!-- Slider for the second column --> */}
+              <div class="testimonial-slide client-slider-section">
+                <div class="slider-container">
+                  <div class="slide-item">
+                    <ul class="list-inline">
+                    <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                    </ul>
+                    <p class="text-white mb-3 text-left client-msg">
+                      Ameotech Informatics has successfully delivered the tasks on time, gaining recognition from an end
+                      client for driving the accuracy of business transactions. They have efficiently utilized various
+                      modes of communication. Customers can expect a collaborative team with an open management style.
+                    </p>
+                    <div class="image-content d-flex">
+                      <div>
+                        <img class="client-profile" src="https://www.ameotech.com/images/Ijaz.svg" alt="Client Image"/>
+                      </div>
+                      <div class="ms-2 text-white slider-content-new mt-2">
+                        <h6>Ijaz Parpia</h6>
+                        <p>Managing Partner, DecisionGPS LLC</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <div class="col-lg-6 offset-lg-3">
+              {/* <!-- Slider for the second column --> */}
+              <div class="testimonial-slide client-slider-section">
+                <div class="slider-container">
+                  <div class="slide-item">
+                    <ul class="list-inline">
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                      <li><img src="https://www.ameotech.com/images/star.png" alt="Star"/></li>
+                    </ul>
+                    <p class="text-white mb-3 text-left client-msg">
+                      Working for years together and would recommend to anyone.
+                    </p>
+                    <div class="image-content d-flex">
+                      <div>
+                        <img class="client-profile" src="https://www.ameotech.com/images/Ijaz-edited.svg" alt="Client Image"/>
+                      </div>
+                      <div class="ms-2 text-white slider-content-new mt-2">
+                        <h6>Elliot Frantz</h6>
+                        <p>CEO at Virtue security</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
     </>
   )
 }
