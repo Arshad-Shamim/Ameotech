@@ -301,6 +301,74 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className='container-fluid row'>
+
+        <div className='col-12 col-md-6 container-fluid'>
+          <img src="https://www.ameotech.com/images/empower-img.webp" alt="loading" className='col-10' style={{marginLeft:"6vw"}}/>
+        </div>
+        
+        <div className='col-12 col-md-6 container-fluid'>
+          <div className='container my-4'>
+            <h3 className='text-uppercase fw-bold'>Empowering industries with intelligent Automation</h3>
+            <div className='container'>
+              <div>
+                <h5>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-diamond-fill text-danger me-1" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098z"/>
+                  </svg>
+                  <span>Machine Learning</span>
+                </h5>
+                <p className='ms-3'>
+                  Machine Learning is a branch of AI that allows computers to learn from data
+                </p>
+              </div>
+
+              <div>
+                <h5>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-diamond-fill text-danger me-1" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098z"/>
+                  </svg>
+                  <span>Sensor Integration</span>
+                </h5>
+                <p className='ms-3'>
+                Sensor integration merges data from various sensors for improved accuracy.                </p>
+              </div>
+
+              <div>
+                <h5>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-diamond-fill text-danger me-1" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098z"/>
+                  </svg>
+                  <span>Computer Vision</span>
+                </h5>
+                <p className='ms-3'>
+                Computer vision enables machines to interpret and understand visual information.                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='container-fluid row my-4'>
+
+        <div className='container col-12 col-md-6'>
+          <div className='' style={{marginLeft:"6vw"}}>
+            <h3 className='fw-bold'>Revolutionize your Industry with AI, LLM and ML</h3>
+            <div>
+              <p><span className='fw-bold'>Unlock Possibilities:</span> Transform your industry with AI, LLM, and ML. </p>
+              <p><span className='fw-bold'>Drive Efficiency:</span> Streamline operations and innovate with AI and ML. </p>
+              <p><span className='fw-bold'>Harness Data:</span> Gain insights and personalize customer interactions.  </p>
+            </div>
+
+            <button type="button" class="btn btn-primary" style={{background:"linear-gradient(90deg, #253695,#b12e33)"}}>Know more....</button>          
+          </div>
+        </div>
+        
+        <div className='container col-12 col-md-6'>
+          <img src="https://www.ameotech.com/images/revolution-comp.png" alt="loading...." className='col-12 my-4 my-md-0'/>
+        </div>
+      </section>
     </>
   )
 }
