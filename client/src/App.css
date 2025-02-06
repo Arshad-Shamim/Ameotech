@@ -616,9 +616,9 @@ li.nav-item {
 ul.nav.mb-2.justify-content-center {
   border-bottom: 1px solid #cfcfcf;
 }
-.border-column {
-  border-left: 2px solid #cfcfcf;
-  border-bottom: 2px solid #cfcfcf;
+
+.border-column{
+  border: 1px solid #cfcfcf;
   padding: 15px;
 }
 .nav-link {

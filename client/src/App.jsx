@@ -306,12 +306,12 @@ function App() {
       {/* box7 */}
       <section className='container-fluid row'>
 
-        <div className='col-12 col-md-6 container-fluid'>
+        <div className='col-12 col-md-6 container-fluid text-center'>
           <img src="https://www.ameotech.com/images/empower-img.webp" alt="loading" className='col-10' style={{marginLeft:"6vw"}}/>
         </div>
         
         <div className='col-12 col-md-6 container-fluid'>
-          <div className='container my-4'>
+          <div className='container my-4' style={{marginLeft:"6vw"}}>
             <h3 className='text-uppercase fw-bold'>Empowering industries with intelligent Automation</h3>
             <div className='container'>
               <div>
@@ -368,8 +368,8 @@ function App() {
           </div>
         </div>
         
-        <div className='container col-12 col-md-6'>
-          <img src="https://www.ameotech.com/images/revolution-comp.png" alt="loading...." className='col-12 my-4 my-md-0'/>
+        <div className='container col-12 col-md-6 text-center'>
+          <img src="https://www.ameotech.com/images/revolution-comp.png" alt="loading...." className='my-4 my-md-0'/>
         </div>
       </section>
 
