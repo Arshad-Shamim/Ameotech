@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Logo from './assets/logo.png'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';    //after installing npm i bootstarp;
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // For JavaScript
@@ -16,7 +16,7 @@ function App() {
       <nav class="navbar navbar-expand-lg bg-white border">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="https://www.ameotech.com/images/ameotech-logo-color.svg" alt="logo"/>
+            <img src={Logo} alt="logo" className='rounded' style={{border:"2px solid #345a6f"}}/>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -717,6 +717,114 @@ function App() {
         </div>
       </div>
     </section>
+
+    {/* box10 */}
+    <div class="container-fluid footer" id="footer-bg-color" style={{background:"linear-gradient(90deg, #253695,#b12e33)"}}>
+      <footer class="text-light mt-5">
+      <div class="container">
+        <div class="row py-4">
+
+          <div class="col-md-3 mb-3 footer-logo-sec">
+            <a href="index.html">
+              <img src="https://www.ameotech.com/images/new-logo-ameotech-white%201.svg" alt="ameotech-logo-white" id="footer-logo"/>
+            </a>
+            <p id="footer-first-para">
+              Founded in 2010, Ameotech Informatics is an established software
+              development company anchored in Mohali, India.
+            </p>
+          </div>
+          
+          <div class="col-md-3 mb-3 footer-logo-sec">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="footer-nav">Home</a></li>
+              <li><a href="aboutus.html" class="footer-nav">About Us</a></li>
+              <li><a href="career.html" class="footer-nav">Career</a></li>
+              <li>
+                <a href="services.html" class="footer-nav">Services</a>
+              </li>
+              <li>
+                <a href="technologies.html" class="footer-nav">Technologies</a>
+              </li>
+              <li>
+                <a href="contact.html" class="footer-nav">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mb-3 resource-content">
+            <h5>Case Studies</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="casestudy.html" class="footer-nav">Healthcare Solution</a><br/>
+                <a href="lyc.html" class="footer-nav">Social Wellness Application</a><br/>
+                <a href="crm.html" class="footer-nav">An approach to CRM </a><br/>
+                <a href="uidesign.html" class="footer-nav">Best in-class for UI/UX design </a><br/>
+                <a href="payment.html" class="footer-nav"> Payment Gateways with E-commerce </a><br/>
+                <a href="food.html" class="footer-nav">Custom Products Dispatcher</a><br/>
+                <a href="E-learning.html" class="footer-nav">E-learning, App and Web</a><br/>
+                <a href="Solution-services.html" class="footer-nav">Problems, Solution and Services </a><br/>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 add-content">
+            <h5>Address</h5>
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://www.ameotech.com/images/location.webp" alt="location" height="20" class="me-2"/>
+              <p class="mb-0 other-link">
+                C-127, FF, IND Area, Phase 8, Mohali, Punjab - 160055
+              </p>
+            </div>
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://www.ameotech.com/images/mail.webp" alt="mail" height="20" class="me-2"/>
+              <p class="mb-0 mt-0">info@ameotech.com</p>
+            </div>
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://www.ameotech.com/images/phone.png" alt="phone" height="20" class="me-2"/>
+              <h5 class="mb-0">+91 17240-29651</h5>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-between border-top">
+          {/* <!-- Copyright Section --> */}
+          <div class="col-lg-6">
+            <div class="copyright py-3">
+              <p class="mb-0" id="copyright-text">
+                ©2024 Ameotech Informatics. All rights reserved.
+              </p>
+            </div>
+          </div>
+          {/* <!-- Social Media Section --> */}
+          <div class="col-lg-6 d-flex justify-content-lg-end justify-content-start">
+            <div class="social-media d-flex align-items-center">
+              <p class="mb-0 me-2" id="follow-text">Follow Us:</p>
+              <div class="d-flex">
+                <a target="_blank" href="https://www.facebook.com/theameotech/">
+                  <img src="https://www.ameotech.com/images/facebook.webp" alt="facebook" height="20" class="me-2"/>
+                </a>
+                <a target="_blank" href="
+             https://www.linkedin.com/authwall?trk=bf&amp;trkInfo=AQHrpOlhpZs7cAAAAZQlj8ZYwQzjXqQMQmFsCM4Nl1Nshr6dp0ngJPLvQoGTyEVgRXOYgp6VmnTOyDUy6Uz3bqRyCbFHcukaZ-Q3PdOfjZD8V5B2FA7zdK6UDsLbwoBuXWon78Y=&amp;original_referer=&amp;sessionRedirect=https%3A%2F%2Fin.linkedin.com%2Fcompany%2Fameo-tech">
+
+                  <img src="https://www.ameotech.com/images/linkden.webp" alt="linkden" height="20" class="me-2"/>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/@ameotechinformatics7911">
+                  <img src="https://www.ameotech.com/images/youtube.webp" alt="youtube" height="20" class="me-2"/>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/theameotech/">
+                  <img src="https://www.ameotech.com/images/instagram.webp" alt="instagram" height="20"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </footer>
+  </div>
     </>
   )
 }
