@@ -171,7 +171,7 @@ li.nav-item {
   margin-top: -100px;
   z-index: 9999;
   position: relative;
-  border-bottom: 5px solid var(--text-hover) !important;
+  border-bottom: 5px solid #1d3584 !important;
   font-family: var(--font-family);
 }
 .big-number {
@@ -240,7 +240,7 @@ li.nav-item {
   font-weight: 400;
 }
 .card-title {
-  color: var(--text-red) !important;
+  color: #3c52c0!important;
   font-size: 22px;
   font-weight: 600;
 }
@@ -251,7 +251,7 @@ li.nav-item {
 .choose-card-new {
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-bottom: 5px solid var(--text-red) !important;
+  border-bottom: 5px solid #1d3584 !important;
 }
 .about-section {
   width: 100%;
@@ -319,7 +319,7 @@ li.nav-item {
 #empower-one,
 #empower-two,
 #empower-three {
-  color: #ae2827 !important;
+  color: #1933b5 !important;
 }
 #price-first,
 #price-two,

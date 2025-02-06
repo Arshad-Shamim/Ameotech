@@ -103,7 +103,7 @@ function App() {
             <div class="col-12 col-lg-8 text-center text-lg-start heading-text d-flex align-items-start">
               <h1 class="text-start" id="top-heading">
                 Innovative Digital Solutions for
-                <span id="home-colored-text">Business Growth</span>
+                <span id="home-colored-text"> Business Growth</span>
               </h1>
               <p class="text-start w-100" id="top-heading-para">
                 Established in 2010, Ameotech Informatics is a reputable software
@@ -316,7 +316,7 @@ function App() {
             <div className='container'>
               <div>
                 <h5>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-diamond-fill text-danger me-1" viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-diamond-fill text-primary me-1" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098z"/>
                   </svg>
                   <span>Machine Learning</span>
@@ -328,7 +328,7 @@ function App() {
 
               <div>
                 <h5>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-diamond-fill text-danger me-1" viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-diamond-fill text-primary me-1" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098z"/>
                   </svg>
                   <span>Sensor Integration</span>
@@ -339,7 +339,7 @@ function App() {
 
               <div>
                 <h5>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-diamond-fill text-danger me-1" viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-diamond-fill text-primary me-1" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098z"/>
                   </svg>
                   <span>Computer Vision</span>
