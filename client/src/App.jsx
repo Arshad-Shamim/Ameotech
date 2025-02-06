@@ -600,6 +600,7 @@ function App() {
     </div>
   </section>
 
+    {/* box8 */}
   <section id="tech-div-section" class="common-padding">
     <div class="container">
       <div id="tech-div">
@@ -681,6 +682,41 @@ function App() {
       </div>
     </div>
   </section>
+
+
+    {/* box9 */}
+  <section className='px-4'>
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5 ps-4">
+        <div class="col-12 col-lg-6 d-flex justify-content-center mb-4 mb-lg-0">
+          <img src="https://www.ameotech.com/images/robot-developer.webp" class="img-fluid" alt="robot-developer"/>
+        </div>
+        <div class="col-12 col-lg-6 top-reason-text text-center text-lg-start text-md-start" id="target-para">
+        
+          <div class="sub-content d-flex align-items-start ">
+            <img src="https://www.ameotech.com/images/num01.svg" alt="dotted-shape-new"/>
+            <div class="sub-title ps-2">
+              <h5>Expertise in AI and Robotics</h5>
+              <p>Robotics system integration merges components and software for optimized automation and operational
+                efficiency</p>
+            </div>
+          </div>
+          <div class="sub-content d-flex align-items-start ">
+            <img src="https://www.ameotech.com/images/num02.svg" alt="dotted-shape-new"/>
+            <div class="sub-title ps-2">
+              <h5>Leading the Way in Machine Learning: Innovations and Future Trends</h5>
+              <p>Machine learning's future will drive innovation with deep learning, edge computing, and explainable AI, transforming industries like healthcare and finance</p>
+            </div>
+          </div>
+          <div class="sub-content d-flex align-items-start ">
+            <img src="https://www.ameotech.com/images/num03.svg" alt="dotted-shape-new"/>
+            <div class="sub-title ps-2">
+              <h5>Mastering AI and Automation for Next-Generation Solutions</h5>
+              <p>This focuses on leveraging AI and automation to create innovative, next-generation solutions that enhance efficiency and drive progress across industries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     </>
   )
 }
