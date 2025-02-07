@@ -1,13 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { useState ,useEffect} from 'react'
 import Logo from './assets/logo.png'
 import Logo2 from './assets/logo2.png'
+import viedo from './assets/viedo1.mp4'
+import Empowerment from './assets/Empowerment.jpg'
+import Reflection from './assets/Reflection.webp'
+import Accountability from './assets/Accountability.webp'
+import ourServies from './assets/our_servies.png'
+import Dedication from './assets/Dedication.jpg'
+import CustomSolutions from './assets/CustomSolutions.jpg'
+import Result from './assets/Result.webp'
+import Testing from './assets/Testing.jpeg'
+import Transparency from './assets/Transparency.jpg'
+import SmartAutomation from './assets/SmartAutomation.jpg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';    //after installing npm i bootstarp;
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // For JavaScript
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -94,20 +103,19 @@ function App() {
         <div class="container py-0">
           {/* <!-- Placeholder for the Video (will be added dynamically) --> */}
           <div class="hero-video-container">
-          <video autoplay="" loop="" muted="" class="hero-video">
-            <source src="https://www.ameotech.com/images/tech-V01.mp4" type="video/mp4"/>
+          <video class="hero-video"  autoPlay loop muted >
+            <source src={viedo} type="video/mp4"/>
             Your browser does not support the video tag.
           </video></div>
     
           <div class="row align-items-center g-5 py-5 ps-3">
             <div class="col-12 col-lg-8 text-center text-lg-start heading-text d-flex align-items-start">
               <h1 class="text-start" id="top-heading">
-                Innovative Digital Solutions for
-                <span id="home-colored-text"> Business Growth</span>
+                Creative Tech Solutions for
+                <span id="home-colored-text"> Expanding Businesses</span>
               </h1>
               <p class="text-start w-100" id="top-heading-para">
-                Established in 2010, Ameotech Informatics is a reputable software
-                development firm based in Mohali.
+                Founded in 2008, Pratibha IT Solution is a trusted software development company located in Mohali.
               </p>
             </div>
           </div>
@@ -121,15 +129,15 @@ function App() {
       <div class="custom-container">
         <div class="row text-center">
           <div class="col-md-3">
-            <p class="big-number"><strong>14+ </strong></p>
+            <p class="big-number"><strong>17+ </strong></p>
             <p>Years of Experience</p>
           </div>
           <div class="col-md-3">
-            <p class="big-number"><strong>97% </strong></p>
+            <p class="big-number"><strong>98%</strong></p>
             <p>Returning Client Rate</p>
           </div>
           <div class="col-md-3">
-            <p class="big-number"><strong>4.2</strong></p>
+            <p class="big-number"><strong>4.7</strong></p>
             <p> Employee Happiness Index</p>
           </div>
           <div class="col-md-3">
@@ -151,40 +159,37 @@ function App() {
         <div class="container">
           <div class="row">
             <div class="col-lg-12 core-title text-center">
-              <h2 class="common-headings">Core Values</h2>
+              <h2 class="common-headings">Core Principal</h2>
             </div>
           </div>
           <div class="row g-4 justify-content-center">
             <div class="col-md-4">
               <div class="card">
-                <img src="https://www.ameotech.com/images/Empowerment-image.webp" class="card-img-top" alt="Empowerment" style={{height:"200px",objectFit:"cover"}}/>
+                <img src={Empowerment} class="card-img-top" alt="Empowerment" style={{height:"200px",objectFit:"cover"}}/>
                 <div class="card-body" style={{height:"150px",overflow:"hidden"}}>
                   <h5 class="card-title" id="empower-one">Empowerment</h5>
                   <p class="card-text">
-                  We empower our clientele to think big and be market leaders by helping them deliver great services through our innovative custom digital solutions. 
-                  </p>
+                  We enable our clients to aim high and lead the market by providing exceptional services through our cutting-edge custom digital solutions.                  </p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card">
-                <img src="https://www.ameotech.com/images/Reflection-img-new.svg" class="card-img-top" alt="Empowerment" style={{height:"200px",objectFit:"cover"}}/>
+                <img src={Reflection} class="card-img-top" alt="Empowerment" style={{height:"200px",objectFit:"cover"}}/>
                 <div class="card-body" style={{height:"150px",overflow:"hidden"}}>
                   <h5 class="card-title" id="empower-one">Reflection</h5>
                   <p class="card-text">
-                  We believe in reflecting on our practices to continually improve and provide the best service possible.
-                  </p>
+                  We prioritize self-assessment to consistently enhance our practices and deliver top-quality service.</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card">
-                <img src="https://www.ameotech.com/images/Responsiblity-image.webp" class="card-img-top" alt="Empowerment" style={{height:"200px",objectFit:"cover"}}/>
+              <img src={Accountability} class="card-img-top" alt="Empowerment" style={{height:"200px",objectFit:"cover"}}/>
                 <div class="card-body" style={{height:"150px",overflow:"hidden"}}>
-                  <h5 class="card-title" id="empower-one">Responsibility</h5>
+                  <h5 class="card-title" id="empower-one">Accountability</h5>
                   <p class="card-text">
-                  We take responsibility for our actions and the quality of the solutions we provide. 
-                  </p>
+                  We own our actions and ensure the highest quality in the solutions we deliver.</p>
                 </div>
               </div>
             </div>
@@ -198,17 +203,13 @@ function App() {
         <div class="container">
           <div class="row service-section align-items-center">
             <div class="col-lg-6">
-              <img class="img-fluid" src="https://www.ameotech.com/images/company-service-image-min.png" alt="Company service overview" height="230"/>
+              <img class="img-fluid" src={ourServies} alt="Company service overview" height="230"/>
             </div>
             
             <div class="col-lg-6 right-section ps-0 ps-lg-5" id="service-center">
-              <h2 class="common-headings" id="comp-service-title">Company Services</h2>
+              <h2 class="common-headings" id="comp-service-title">Our Services</h2>
               <p id="company-service-para">
-                At Ameotech, we deliver high-quality web development services from the early conception stage to tech
-                support. We aim to turn your vision into workable features by offering a comprehensive range of software
-                development services, including custom web development, mobile app development, software project management,
-                UX design and prototyping, testing (load &amp; performance testing), and compliance. We work with technologies
-                such as Node JS, Python, Django, and more to develop problem-solving products.
+              At Pratibha Solution, we provide top-notch web development services, guiding projects from initial ideas to ongoing technical support. Our goal is to transform your vision into functional digital solutions through a wide range of software development services, including custom web development, mobile app development, software project management, UX/UI design, prototyping, performance testing, and compliance assurance. Utilizing technologies like Node.js, Python, Django, and more, we create innovative and effective solutions tailored to your needs.
               </p>
               <a href="./services.html">
                 <button class="btn btn-primary common-btn" id="service-btn">
@@ -228,9 +229,7 @@ function App() {
           <div class="choose p-0 pb-md-4 mx-auto text-center">
             <h2 class="common-headings" id="choose-us">Why Choose Us?</h2>
             <p>
-              We are just as good with testing as we are with developing. You also
-              receive ongoing support for any feature add-ons as well as OS and
-              security upgrade compatibility.
+            We excel in both development and testing, ensuring high-quality solutions. Additionally, we provide continuous support for feature enhancements, OS updates, and security upgrades.
             </p>
           </div>
         </div>
@@ -241,41 +240,40 @@ function App() {
           <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 gx-4 gy-4">
             <div class="col">
               <div class="card choose-card-new">
-                <img src="https://www.ameotech.com/images/dedication-img-comp.webp" class="card-img-top" alt="Image 1"/>
+                <img src={Dedication} class="card-img-top" alt="Image 1"/>
                 <div class="card-body">
                   <h5 class="card-title text-center text-lg-start">Dedication</h5>
-                  <p class="card-text  card-choose-us">Dedication is the foundation of success in the printing and typesetting
-                    industry. It drives us to deliver quality, embrace innovation, and exceed expectations. </p>
+                  <p class="card-text  card-choose-us">commitment, and continuously innovate to meet industry standards and exceed customer expectations.</p>
                 </div>
               </div>
             </div>  
 
             <div class="col">
               <div class="card choose-card-new">
-                <img src="https://www.ameotech.com/images/custom-solution-img.svg" class="card-img-top" alt="Image 1"/>
+                <img src={CustomSolutions} class="card-img-top" alt="Image 1"/>
                 <div class="card-body">
                   <h5 class="card-title text-center text-lg-start">Custom Solutions</h5>
-                  <p class="card-text  card-choose-us">Offering custom solutions tailored to meet your unique needs, we combine creativity, precision, and expertise to deliver  </p>
+                  <p class="card-text  card-choose-us">Providing bespoke solutions designed to fit your specific requirements, we blend innovation, accuracy, and expertise to deliver exceptional custom solutions.</p>
                 </div>
               </div>
             </div>  
 
             <div class="col">
               <div class="card choose-card-new">
-                <img src="https://www.ameotech.com/images/result-card-img.png" class="card-img-top" alt="Image 1"/>
+                <img src={Result} class="card-img-top" alt="Image 1"/>
                 <div class="card-body">
                   <h5 class="card-title text-center text-lg-start">Results</h5>
-                  <p class="card-text  card-choose-us">Focused on delivering outstanding and innovative results, we ensure every project meets the highest standards of  </p>
+                  <p class="card-text  card-choose-us">Focused on delivering outstanding and innovative results, we ensure every project meets the highest standards of quality and performance.</p>
                 </div>
               </div>
             </div>  
 
             <div class="col">
               <div class="card choose-card-new">
-                <img src="https://www.ameotech.com/images/Testing%20-Support-img.png" class="card-img-top" alt="Image 1"/>
+                <img src={Testing} class="card-img-top" alt="Image 1"/>
                 <div class="card-body">
                   <h5 class="card-title text-center text-lg-start">Testing & Support</h5>
-                  <p class="card-text  card-choose-us">Dedicated to providing reliable testing and support, we ensure seamless performance, quick resolutions, and continuous </p>
+                  <p class="card-text  card-choose-us">Dedicated to providing reliable testing and support, we ensure seamless performance, swift issue resolution, and ongoing enhancements.</p>
                 </div>
               </div>
             </div>  
@@ -285,17 +283,17 @@ function App() {
                 <img src="https://www.ameotech.com/images/Legitimacy-card-img.svg" class="card-img-top" alt="Image 1"/>
                 <div class="card-body">
                   <h5 class="card-title text-center text-lg-start">Legitimacy</h5>
-                  <p class="card-text  card-choose-us">Committed to upholding the highest standards of legitimacy, we ensure transparency, trust, and integrity in every </p>
+                  <p class="card-text  card-choose-us">Committed to upholding the highest standards of legitimacy, we ensure transparency, trust, and integrity in every aspect of our work.</p>
                 </div>
               </div>
             </div>  
 
             <div class="col">
               <div class="card choose-card-new">
-                <img src="https://www.ameotech.com/images/Transparency-card-img.svg" class="card-img-top" alt="Image 1"/>
+                <img src={Transparency} class="card-img-top" alt="Image 1"/>
                 <div class="card-body">
                   <h5 class="card-title text-center text-lg-start">Transparency</h5>
-                  <p class="card-text  card-choose-us">Driven by transparency and integrity, we ensure clear communication, open processes, and honest practices in every </p>
+                  <p class="card-text  card-choose-us">Driven by transparency and integrity, we ensure clear communication, open processes, and honest practices in every interaction. </p>
                 </div>
               </div>
             </div>  
@@ -307,14 +305,14 @@ function App() {
       <section className='container-fluid row'>
 
         <div className='col-12 col-md-6 container-fluid text-center'>
-          <img src="https://www.ameotech.com/images/empower-img.webp" alt="loading" className='col-10' style={{marginLeft:"6vw"}}/>
+          <img src={SmartAutomation} alt="loading" className='col-10 h-100 rounded' style={{marginLeft:"6vw"}}/>
         </div>
         
         <div className='col-12 col-md-6 container-fluid'>
           <div className='container my-4' style={{marginLeft:"6vw"}}>
-            <h3 className='text-uppercase fw-bold'>Empowering industries with intelligent Automation</h3>
+            <h3 className='text-uppercase fw-bold'>Revolutionizing Industries with Smart Automation</h3>
             <div className='container'>
-              <div>
+              <div className='container'>
                 <h5>
                   <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-diamond-fill text-primary me-1" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098z"/>
@@ -322,7 +320,7 @@ function App() {
                   <span>Machine Learning</span>
                 </h5>
                 <p className='ms-3'>
-                  Machine Learning is a branch of AI that allows computers to learn from data
+                Machine Learning is a subset of AI that enables computers to analyze data.
                 </p>
               </div>
 
@@ -334,7 +332,7 @@ function App() {
                   <span>Sensor Integration</span>
                 </h5>
                 <p className='ms-3'>
-                Sensor integration merges data from various sensors for improved accuracy.                </p>
+                Sensor integration combines data from multiple sensors to enhance precision, reliability, and overall system performance.</p>
               </div>
 
               <div>
@@ -345,7 +343,7 @@ function App() {
                   <span>Computer Vision</span>
                 </h5>
                 <p className='ms-3'>
-                Computer vision enables machines to interpret and understand visual information.                </p>
+                Computer vision allows machines to analyze, interpret, and make sense of visual data, enabling automation and intelligent decision-making.</p>
               </div>
             </div>
           </div>
@@ -608,8 +606,6 @@ function App() {
         <h2 class="common-headings">Technologies We Work On</h2>
         <p>Get work done in 200+ different technologies</p>
       </div>
-
-
 
       <div class="row d-flex justify-content-center">
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">

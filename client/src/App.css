@@ -2640,7 +2640,14 @@ button.explore:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 50px 80px;
 }
-.cards-section .card-img-top {
+.cards-section{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.card-img-top{
   width: 100%;
   height: 200px;
   object-fit: contain;
