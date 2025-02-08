@@ -12,6 +12,11 @@ import Result from './assets/Result.webp'
 import Testing from './assets/Testing.jpeg'
 import Transparency from './assets/Transparency.jpg'
 import SmartAutomation from './assets/SmartAutomation.jpg'
+import aiml from './assets/aiml.webp'
+import ai_ml_2 from './assets/ai-ml-2.jpg'
+import one from './assets/one.jpg'
+import two from './assets/two.jpg'
+import three from './assets/three.jpg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';    //after installing npm i bootstarp;
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // For JavaScript
@@ -309,7 +314,7 @@ function App() {
         </div>
         
         <div className='col-12 col-md-6 container-fluid'>
-          <div className='container my-4' style={{marginLeft:"6vw"}}>
+          <div className='container my-4 col-11' style={{marginLeft:"6vw"}}>
             <h3 className='text-uppercase fw-bold'>Revolutionizing Industries with Smart Automation</h3>
             <div className='container'>
               <div className='container'>
@@ -351,23 +356,23 @@ function App() {
       </section>
 
       {/* box8 */}
-      <section className='container-fluid row my-4'>
+      <section className='container-fluid row my-4 mx-0'>
 
         <div className='container col-12 col-md-6'>
           <div className='' style={{marginLeft:"6vw"}}>
-            <h3 className='fw-bold'>Revolutionize your Industry with AI, LLM and ML</h3>
+            <h3 className='fw-bold'>Transform your industry with AI, LLM, and ML innovation.</h3>
             <div>
-              <p><span className='fw-bold'>Unlock Possibilities:</span> Transform your industry with AI, LLM, and ML. </p>
-              <p><span className='fw-bold'>Drive Efficiency:</span> Streamline operations and innovate with AI and ML. </p>
-              <p><span className='fw-bold'>Harness Data:</span> Gain insights and personalize customer interactions.  </p>
+              <p><span className='fw-bold'>Unleash Potential:</span> Revolutionize your industry with AI, LLM, and ML.</p>
+              <p><span className='fw-bold'>Boost Productivity:</span> Optimize operations and innovate with AI and ML. </p>
+              <p><span className='fw-bold'>Leverage Data:</span> Unlock insights and enhance customer experiences.</p>
             </div>
 
             <button type="button" class="btn btn-primary" style={{background:"linear-gradient(90deg,#1db7c5, #1d3082)"}}>Know more....</button>          
           </div>
         </div>
         
-        <div className='container col-12 col-md-6 text-center'>
-          <img src="https://www.ameotech.com/images/revolution-comp.png" alt="loading...." className='my-4 my-md-0'/>
+        <div className='container-fluid col-12 col-md-6 text-center'>
+          <img src={ai_ml_2} alt="loading...." className='my-4 my-md-0 rounded col-md-12 col-10'/>
         </div>
       </section>
 
@@ -685,31 +690,29 @@ function App() {
   <section className='px-4'>
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5 ps-4">
         <div class="col-12 col-lg-6 d-flex justify-content-center mb-4 mb-lg-0">
-          <img src="https://www.ameotech.com/images/robot-developer.webp" class="img-fluid" alt="robot-developer"/>
+          <img src={aiml} class="img-fluid rounded" alt="robot-developer"/>
         </div>
         <div class="col-12 col-lg-6 top-reason-text text-center text-lg-start text-md-start" id="target-para">
         
           <div class="sub-content d-flex align-items-start ">
-            <img src="https://www.ameotech.com/images/num01.svg" alt="dotted-shape-new"/>
+            <img src={one} alt="dotted-shape-new" className='' style={{height:"4vh"}}/>
             <div class="sub-title ps-2">
               <h5>Expertise in AI and Robotics</h5>
-              <p>Robotics system integration merges components and software for optimized automation and operational
-                efficiency.
-              </p>
+              <p>Robotic system integration combines hardware and software to enhance automation and operational efficiency.</p>
             </div>
           </div>
           <div class="sub-content d-flex align-items-start ">
-            <img src="https://www.ameotech.com/images/num02.svg" alt="dotted-shape-new"/>
+            <img src={two} alt="dotted-shape-new" style={{height:"4vh"}}/>
             <div class="sub-title ps-2">
-              <h5>Leading the Way in Machine Learning: Innovations and Future Trends</h5>
-              <p>Machine learning's future will drive innovation with deep learning, edge computing, and explainable AI, transforming industries like healthcare and finance</p>
+              <h5>Leading in Machine Learning: New Innovations and Future Trends.</h5>
+              <p>The future of machine learning will bring innovation through deep learning, edge computing, and explainable AI, revolutionizing industries like healthcare and finance</p>
             </div>
           </div>
           <div class="sub-content d-flex align-items-start ">
-            <img src="https://www.ameotech.com/images/num03.svg" alt="dotted-shape-new"/>
+            <img src={three} alt="dotted-shape-new" style={{height:"4vh"}}/>
             <div class="sub-title ps-2">
-              <h5>Mastering AI and Automation for Next-Generation Solutions</h5>
-              <p>This focuses on leveraging AI and automation to create innovative, next-generation solutions that enhance efficiency and drive progress across industries.</p>
+              <h5>Excelling in AI and Automation for Future-Ready Solutions.</h5>
+              <p>This emphasizes using AI and automation to develop innovative solutions that boost efficiency and drive progress across various industries.</p>
             </div>
           </div>
         </div>
@@ -727,8 +730,7 @@ function App() {
               <img src={Logo2} alt="ameotech-logo-white" id="footer-logo"/>
             </a>
             <p id="footer-first-para">
-              Founded in 2010, Ameotech Informatics is an established software
-              development company anchored in Mohali, India.
+            Founded in 2008, Pratibha IT Solution is a trusted software development company located in Mohali.
             </p>
           </div>
           
@@ -793,7 +795,7 @@ function App() {
           <div class="col-lg-6">
             <div class="copyright py-3">
               <p class="mb-0" id="copyright-text">
-                ©2024 Ameotech Informatics. All rights reserved.
+                ©2024 Pratibha IT Solution. All rights reserved.
               </p>
             </div>
           </div>
