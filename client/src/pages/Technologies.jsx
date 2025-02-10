@@ -1,8 +1,7 @@
 import React from 'react'
 
 import {nav,core_tech,footer} from './Home.jsx';
-import './technologies.css'
-import Tech from '../assets/core_technologies.webp'
+import './Technologies.css'
 
 export default function Technologies() {
   return (
