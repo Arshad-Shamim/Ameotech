@@ -1,0 +1,12 @@
+#core-technologies{
+    height: 350px;
+    background:url('../assets/core_technologies.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}

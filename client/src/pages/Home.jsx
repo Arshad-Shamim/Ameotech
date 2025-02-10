@@ -18,6 +18,284 @@ import two from '../assets/two.jpg'
 import three from '../assets/three.jpg'
 import '../cascading/Home.css'
 
+function nav(){
+    return(
+        <>
+            <nav class="navbar navbar-expand-lg border" style={{backgroundColor:"#f0f8ff"}}>
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src={Logo} alt="logo" className='rounded'/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Case Studies 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill ms-1" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                            </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li class="mb-2"><a class="dropdown-item" href="casestudy.html">Healthcare Solution </a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="lyc.html">Social Wellness Application </a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="crm.html">An approach to CRM </a>
+                            </li>
+                            <li class="mb-2"><a class="dropdown-item" href="uidesign.html">Best in-class for UI/UX design </a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="payment.html">
+                                Payment Gateways with E-commerce </a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="food.html">Custom Products Dispatcher </a>
+                            </li>
+                            <li class="mb-2"><a class="dropdown-item" href="E-learning.html">E-learning, App and Web </a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="Solution-services.html">Problems, Solution and Services
+                                </a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill ms-1" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                            </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li class="mb-2"><a class="dropdown-item" href="mobileapp.html">Mobile App Development</a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="webdevelop.html">Web App Development</a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="development.html">Custom Software Development
+                                Services</a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="product.html">Product Design</a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="digital.html">Digital Marketing</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="career.html">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/technologies">Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary" href="contact.html">Contact Us</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </>
+    )
+}
+
+function core_tech(){
+    return(
+        <>
+                {/* box8 */}
+            <section id="tech-div-section" class="common-padding">
+                <div class="container">
+                    <div id="tech-div">
+                        <h2 class="common-headings">Technologies We Work On</h2>
+                        <p>Get work done in 200+ different technologies</p>
+                    </div>
+
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/react-native.webp" alt="react-native" class="img-fluid" height="70"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/python-logo.svg" alt="python-logo" class="img-fluid" id="python-img"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/dotnet.svg" alt="dotnet" class="img-fluid"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/Swift-new.webp" alt="Swift" class="img-fluid"/>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/IOS-new.webp" alt="IOS" class="img-fluid"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/Android-new.webp" alt="Android" class="img-fluid"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/Ionic-new.webp" alt="Ionic" class="img-fluid"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/Flutter-new.webp" alt="Flutter" class="img-fluid"/>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/django-logo-positive.svg" alt="django-logo-positive" class="img-fluid"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/mongodb-logo.svg" alt="mongodb-logo" class="img-fluid"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/aws-logo.svg" alt="aws" class="img-fluid" id="aws-img"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/sql-logo.svg" alt="Flutter" class="img-fluid"/>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/javascript.svg" alt="javascript" class="img-fluid"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/ml%201.svg" alt="ml" class="img-fluid" id="machine-learning-img"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/devops-logo.svg" alt="DevOps" class="img-fluid" id="devops-img"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/angular.svg" alt="angular" class="img-fluid"/>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/azure-logo.svg" alt="azure-logo" class="img-fluid" id="azure-img"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/html5.svg" alt="html" class="img-fluid" id="machine-learning-img"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/CSS3_-newww%201.svg" alt="CSS3" class="img-fluid" id="css-img"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/AI-logo.svg" alt="AI-logo" class="img-fluid" id="ai-img"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
+}
+
+function footer(){
+    return(
+    <>
+            {/* box10 */}
+    <div class="container-fluid footer" id="footer-bg-color" style={{background:"linear-gradient(90deg,#42e1d6, #1d3082)"}}>
+        <footer class="text-light mt-5">
+            <div class="container">
+                <div class="row py-4">
+
+                    <div class="col-md-3 mb-3 footer-logo-sec">
+                    <a href="index.html">
+                        <img src={Logo2} alt="ameotech-logo-white" id="footer-logo"/>
+                    </a>
+                    <p id="footer-first-para">
+                    Founded in 2008, Pratibha IT Solution is a trusted software development company located in Mohali.
+                    </p>
+                    </div>
+                    
+                    <div class="col-md-3 mb-3 footer-logo-sec">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-nav">Home</a></li>
+                        <li><a href="aboutus.html" class="footer-nav">About Us</a></li>
+                        <li><a href="career.html" class="footer-nav">Career</a></li>
+                        <li>
+                        <a href="services.html" class="footer-nav">Services</a>
+                        </li>
+                        <li>
+                        <a href="technologies.html" class="footer-nav">Technologies</a>
+                        </li>
+                        <li>
+                        <a href="contact.html" class="footer-nav">Contact Us</a>
+                        </li>
+                    </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-3 resource-content">
+                    <h5>Case Studies</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                        <a href="casestudy.html" class="footer-nav">Healthcare Solution</a><br/>
+                        <a href="lyc.html" class="footer-nav">Social Wellness Application</a><br/>
+                        <a href="crm.html" class="footer-nav">An approach to CRM </a><br/>
+                        <a href="uidesign.html" class="footer-nav">Best in-class for UI/UX design </a><br/>
+                        <a href="payment.html" class="footer-nav"> Payment Gateways with E-commerce </a><br/>
+                        <a href="food.html" class="footer-nav">Custom Products Dispatcher</a><br/>
+                        <a href="E-learning.html" class="footer-nav">E-learning, App and Web</a><br/>
+                        <a href="Solution-services.html" class="footer-nav">Problems, Solution and Services </a><br/>
+                        </li>
+                    </ul>
+                    </div>
+
+                    <div class="col-md-3 add-content">
+                    <h5>Address</h5>
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="https://www.ameotech.com/images/location.webp" alt="location" height="20" class="me-2"/>
+                        <p class="mb-0 other-link">
+                        C-127, FF, IND Area, Phase 8, Mohali, Punjab - 160055
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="https://www.ameotech.com/images/mail.webp" alt="mail" height="20" class="me-2"/>
+                        <p class="mb-0 mt-0">info@ameotech.com</p>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="https://www.ameotech.com/images/phone.png" alt="phone" height="20" class="me-2"/>
+                        <h5 class="mb-0">+91 17240-29651</h5>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-between border-top">
+                    {/* <!-- Copyright Section --> */}
+                    <div class="col-lg-6">
+                        <div class="copyright py-3">
+                            <p class="mb-0" id="copyright-text">
+                            ©2024 Pratibha IT Solution. All rights reserved.
+                            </p>
+                        </div>
+                    </div>
+                    {/* <!-- Social Media Section --> */}
+                    <div class="col-lg-6 d-flex justify-content-lg-end justify-content-start">
+                        <div class="social-media d-flex align-items-center">
+                            <p class="mb-0 me-2" id="follow-text">Follow Us:</p>
+                            <div class="d-flex">
+                            <a target="_blank" href="https://www.facebook.com/theameotech/">
+                                <img src="https://www.ameotech.com/images/facebook.webp" alt="facebook" height="20" class="me-2"/>
+                            </a>
+                            <a target="_blank" href="
+                        https://www.linkedin.com/authwall?trk=bf&amp;trkInfo=AQHrpOlhpZs7cAAAAZQlj8ZYwQzjXqQMQmFsCM4Nl1Nshr6dp0ngJPLvQoGTyEVgRXOYgp6VmnTOyDUy6Uz3bqRyCbFHcukaZ-Q3PdOfjZD8V5B2FA7zdK6UDsLbwoBuXWon78Y=&amp;original_referer=&amp;sessionRedirect=https%3A%2F%2Fin.linkedin.com%2Fcompany%2Fameo-tech">
+
+                                <img src="https://www.ameotech.com/images/linkden.webp" alt="linkden" height="20" class="me-2"/>
+                            </a>
+                            <a target="_blank" href="https://www.youtube.com/@ameotechinformatics7911">
+                                <img src="https://www.ameotech.com/images/youtube.webp" alt="youtube" height="20" class="me-2"/>
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com/theameotech/">
+                                <img src="https://www.ameotech.com/images/instagram.webp" alt="instagram" height="20"/>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </>
+    )
+}
+
 function Home() {
 
   return (
@@ -25,77 +303,7 @@ function Home() {
 
     {/* block1 */}
     <header>
-      <nav class="navbar navbar-expand-lg border" style={{backgroundColor:"#f0f8ff"}}>
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src={Logo} alt="logo" className='rounded'/>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="aboutus.html">About Us</a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Case Studies 
-                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill ms-1" viewBox="0 0 16 16">
-                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                  </svg>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                  <li class="mb-2"><a class="dropdown-item" href="casestudy.html">Healthcare Solution </a></li>
-                  <li class="mb-2"><a class="dropdown-item" href="lyc.html">Social Wellness Application </a></li>
-                  <li class="mb-2"><a class="dropdown-item" href="crm.html">An approach to CRM </a>
-                  </li>
-                  <li class="mb-2"><a class="dropdown-item" href="uidesign.html">Best in-class for UI/UX design </a></li>
-                  <li class="mb-2"><a class="dropdown-item" href="payment.html">
-                      Payment Gateways with E-commerce </a></li>
-                  <li class="mb-2"><a class="dropdown-item" href="food.html">Custom Products Dispatcher </a>
-                  </li>
-                  <li class="mb-2"><a class="dropdown-item" href="E-learning.html">E-learning, App and Web </a></li>
-                  <li class="mb-2"><a class="dropdown-item" href="Solution-services.html">Problems, Solution and Services
-                    </a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill ms-1" viewBox="0 0 16 16">
-                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                  </svg>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                  <li class="mb-2"><a class="dropdown-item" href="mobileapp.html">Mobile App Development</a></li>
-                  <li class="mb-2"><a class="dropdown-item" href="webdevelop.html">Web App Development</a></li>
-                  <li class="mb-2"><a class="dropdown-item" href="development.html">Custom Software Development
-                      Services</a></li>
-                  <li class="mb-2"><a class="dropdown-item" href="product.html">Product Design</a></li>
-                  <li class="mb-2"><a class="dropdown-item" href="digital.html">Digital Marketing</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="career.html">Career</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="technologies.html">Technologies</a>
-              </li>
-              <li class="nav-item">
-                <a class="btn btn-primary" href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      {nav()}
     </header>
 
     {/* block2 */}
@@ -302,6 +510,8 @@ function Home() {
           </div>
         </div>
       </section>
+
+        {core_tech()}
 
       {/* box7 */}
       <section className='container-fluid row'>
@@ -601,87 +811,6 @@ function Home() {
       </div>
     </section>
 
-    {/* box8 */}
-  <section id="tech-div-section" class="common-padding">
-    <div class="container">
-      <div id="tech-div">
-        <h2 class="common-headings">Technologies We Work On</h2>
-        <p>Get work done in 200+ different technologies</p>
-      </div>
-
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/react-native.webp" alt="react-native" class="img-fluid" height="70"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/python-logo.svg" alt="python-logo" class="img-fluid" id="python-img"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/dotnet.svg" alt="dotnet" class="img-fluid"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/Swift-new.webp" alt="Swift" class="img-fluid"/>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/IOS-new.webp" alt="IOS" class="img-fluid"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/Android-new.webp" alt="Android" class="img-fluid"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/Ionic-new.webp" alt="Ionic" class="img-fluid"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/Flutter-new.webp" alt="Flutter" class="img-fluid"/>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/django-logo-positive.svg" alt="django-logo-positive" class="img-fluid"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/mongodb-logo.svg" alt="mongodb-logo" class="img-fluid"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/aws-logo.svg" alt="aws" class="img-fluid" id="aws-img"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/sql-logo.svg" alt="Flutter" class="img-fluid"/>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/javascript.svg" alt="javascript" class="img-fluid"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/ml%201.svg" alt="ml" class="img-fluid" id="machine-learning-img"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/devops-logo.svg" alt="DevOps" class="img-fluid" id="devops-img"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/angular.svg" alt="angular" class="img-fluid"/>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/azure-logo.svg" alt="azure-logo" class="img-fluid" id="azure-img"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/html5.svg" alt="html" class="img-fluid" id="machine-learning-img"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/CSS3_-newww%201.svg" alt="CSS3" class="img-fluid" id="css-img"/>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
-          <img src="https://www.ameotech.com/images/AI-logo.svg" alt="AI-logo" class="img-fluid" id="ai-img"/>
-        </div>
-      </div>
-    </div>
-  </section>
-
 
     {/* box9 */}
   <section className='px-4'>
@@ -715,116 +844,12 @@ function Home() {
         </div>
       </div>
     </section>
-
-    {/* box10 */}
-    <div class="container-fluid footer" id="footer-bg-color" style={{background:"linear-gradient(90deg,#42e1d6, #1d3082)"}}>
-      <footer class="text-light mt-5">
-      <div class="container">
-        <div class="row py-4">
-
-          <div class="col-md-3 mb-3 footer-logo-sec">
-            <a href="index.html">
-              <img src={Logo2} alt="ameotech-logo-white" id="footer-logo"/>
-            </a>
-            <p id="footer-first-para">
-            Founded in 2008, Pratibha IT Solution is a trusted software development company located in Mohali.
-            </p>
-          </div>
-          
-          <div class="col-md-3 mb-3 footer-logo-sec">
-            <h5>Quick Links</h5>
-            <ul class="list-unstyled">
-              <li><a href="index.html" class="footer-nav">Home</a></li>
-              <li><a href="aboutus.html" class="footer-nav">About Us</a></li>
-              <li><a href="career.html" class="footer-nav">Career</a></li>
-              <li>
-                <a href="services.html" class="footer-nav">Services</a>
-              </li>
-              <li>
-                <a href="technologies.html" class="footer-nav">Technologies</a>
-              </li>
-              <li>
-                <a href="contact.html" class="footer-nav">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-3 mb-3 resource-content">
-            <h5>Case Studies</h5>
-            <ul class="list-unstyled">
-              <li>
-                <a href="casestudy.html" class="footer-nav">Healthcare Solution</a><br/>
-                <a href="lyc.html" class="footer-nav">Social Wellness Application</a><br/>
-                <a href="crm.html" class="footer-nav">An approach to CRM </a><br/>
-                <a href="uidesign.html" class="footer-nav">Best in-class for UI/UX design </a><br/>
-                <a href="payment.html" class="footer-nav"> Payment Gateways with E-commerce </a><br/>
-                <a href="food.html" class="footer-nav">Custom Products Dispatcher</a><br/>
-                <a href="E-learning.html" class="footer-nav">E-learning, App and Web</a><br/>
-                <a href="Solution-services.html" class="footer-nav">Problems, Solution and Services </a><br/>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-3 add-content">
-            <h5>Address</h5>
-            <div class="d-flex align-items-center mb-2">
-              <img src="https://www.ameotech.com/images/location.webp" alt="location" height="20" class="me-2"/>
-              <p class="mb-0 other-link">
-                C-127, FF, IND Area, Phase 8, Mohali, Punjab - 160055
-              </p>
-            </div>
-            <div class="d-flex align-items-center mb-2">
-              <img src="https://www.ameotech.com/images/mail.webp" alt="mail" height="20" class="me-2"/>
-              <p class="mb-0 mt-0">info@ameotech.com</p>
-            </div>
-            <div class="d-flex align-items-center mb-2">
-              <img src="https://www.ameotech.com/images/phone.png" alt="phone" height="20" class="me-2"/>
-              <h5 class="mb-0">+91 17240-29651</h5>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row d-flex align-items-center justify-content-between border-top">
-          {/* <!-- Copyright Section --> */}
-          <div class="col-lg-6">
-            <div class="copyright py-3">
-              <p class="mb-0" id="copyright-text">
-                ©2024 Pratibha IT Solution. All rights reserved.
-              </p>
-            </div>
-          </div>
-          {/* <!-- Social Media Section --> */}
-          <div class="col-lg-6 d-flex justify-content-lg-end justify-content-start">
-            <div class="social-media d-flex align-items-center">
-              <p class="mb-0 me-2" id="follow-text">Follow Us:</p>
-              <div class="d-flex">
-                <a target="_blank" href="https://www.facebook.com/theameotech/">
-                  <img src="https://www.ameotech.com/images/facebook.webp" alt="facebook" height="20" class="me-2"/>
-                </a>
-                <a target="_blank" href="
-             https://www.linkedin.com/authwall?trk=bf&amp;trkInfo=AQHrpOlhpZs7cAAAAZQlj8ZYwQzjXqQMQmFsCM4Nl1Nshr6dp0ngJPLvQoGTyEVgRXOYgp6VmnTOyDUy6Uz3bqRyCbFHcukaZ-Q3PdOfjZD8V5B2FA7zdK6UDsLbwoBuXWon78Y=&amp;original_referer=&amp;sessionRedirect=https%3A%2F%2Fin.linkedin.com%2Fcompany%2Fameo-tech">
-
-                  <img src="https://www.ameotech.com/images/linkden.webp" alt="linkden" height="20" class="me-2"/>
-                </a>
-                <a target="_blank" href="https://www.youtube.com/@ameotechinformatics7911">
-                  <img src="https://www.ameotech.com/images/youtube.webp" alt="youtube" height="20" class="me-2"/>
-                </a>
-                <a target="_blank" href="https://www.instagram.com/theameotech/">
-                  <img src="https://www.ameotech.com/images/instagram.webp" alt="instagram" height="20"/>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </footer>
-  </div>
+    <section>
+        {footer}
+    </section>
     </>
   )
 }
 
-export default Home
+export{Home,nav,core_tech,footer}
 
