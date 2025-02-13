@@ -23,7 +23,7 @@ function nav(){
         <>
             <nav class="navbar navbar-expand-lg border" style={{backgroundColor:"#f0f8ff"}}>
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="/home">
                         <img src={Logo} alt="logo" className='rounded'/>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@ function nav(){
                             <a class="nav-link" aria-current="page" href="/home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="aboutus.html">About Us</a>
+                            <a class="nav-link" href="/aboutus">About Us</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -80,13 +80,13 @@ function nav(){
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="career.html">Career</a>
+                            <a class="nav-link" href="/career">Career</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/technologies">Technologies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-primary" href="contact.html">Contact Us</a>
+                            <a class="btn btn-primary" href="/contactus">Contact Us</a>
                         </li>
                         </ul>
                     </div>
@@ -103,7 +103,7 @@ function core_tech(){
             <section id="tech-div-section" class="common-padding">
                 <div class="container">
                     <div id="tech-div">
-                        <h2 class="common-headings">Technologies We Work On</h2>
+                        <h2 class="common-headings">Our Tech Expertise</h2>
                         <p>Get work done in 200+ different technologies</p>
                     </div>
 
@@ -193,7 +193,7 @@ function footer(){
                 <div class="row py-4">
 
                     <div class="col-md-3 mb-3 footer-logo-sec">
-                    <a href="index.html">
+                    <a href="/home">
                         <img src={Logo2} alt="ameotech-logo-white" id="footer-logo"/>
                     </a>
                     <p id="footer-first-para">
@@ -204,17 +204,17 @@ function footer(){
                     <div class="col-md-3 mb-3 footer-logo-sec">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="index.html" class="footer-nav">Home</a></li>
-                        <li><a href="aboutus.html" class="footer-nav">About Us</a></li>
-                        <li><a href="career.html" class="footer-nav">Career</a></li>
+                        <li><a href="/home" class="footer-nav">Home</a></li>
+                        <li><a href="/aboutus" class="footer-nav">About Us</a></li>
+                        <li><a href="/career" class="footer-nav">Career</a></li>
                         <li>
                         <a href="services.html" class="footer-nav">Services</a>
                         </li>
                         <li>
-                        <a href="technologies.html" class="footer-nav">Technologies</a>
+                        <a href="/technologies" class="footer-nav">Technologies</a>
                         </li>
                         <li>
-                        <a href="contact.html" class="footer-nav">Contact Us</a>
+                        <a href="/contactus" class="footer-nav">Contact Us</a>
                         </li>
                     </ul>
                     </div>
@@ -845,7 +845,7 @@ function Home() {
       </div>
     </section>
     <section>
-        {footer}
+        {footer()}
     </section>
     </>
   )

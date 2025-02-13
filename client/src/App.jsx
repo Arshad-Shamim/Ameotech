@@ -4,6 +4,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js"; // For JavaScript
 
 import {Home} from './pages/Home.jsx'
 import Technologies from './pages/Technologies.jsx'
+import Aboutus from './pages/Aboutus.jsx';
+import Contactus from './pages/contactus.jsx';
+import Career from './pages/Career.jsx';
 
 function App(){
   return(
@@ -11,6 +14,9 @@ function App(){
       <Route path="/" element={<Navigate to="/home"/>}/>
       <Route path="/home" element={<Home/>}/>
       <Route path="/technologies" element={<Technologies/>}/>
+      <Route path="/aboutus" element={<Aboutus/>}/>
+      <Route path="/contactus"element={<Contactus/>}/>
+      <Route path="/career" element={<Career/>}/>
     </Routes>
   )
 }
