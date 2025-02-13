@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js"; // For JavaScript
 import {Home} from './pages/Home.jsx'
 import Technologies from './pages/Technologies.jsx'
 import Aboutus from './pages/Aboutus.jsx';
-import Contactus from './pages/contactus.jsx';
+import Contactus from './pages/Contactus.jsx';
 import Career from './pages/Career.jsx';
 
 function App(){
