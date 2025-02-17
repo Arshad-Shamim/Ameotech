@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {nav,core_tech,footer} from './Home.jsx';
-import './Technologies.css'
+import '../cascading/Technologies.css'
 
 export default function Technologies() {
   return (
