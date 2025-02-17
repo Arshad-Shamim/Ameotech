@@ -3,7 +3,7 @@ import React from 'react'
 import {footer, nav} from './Home.jsx'
 import expretes from '../assets/expretes.webp'
 import client from '../assets/client.jpg'
-import '../cascading/Contactus.css'
+import '../cascading/contactus.css'
 import '../cascading/Home.css'
 
 export default function Contactus() {
