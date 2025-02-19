@@ -16,6 +16,10 @@
     font-weight: 700;
 }
 
-#search-job{
+.linear_grad{
     background: linear-gradient(90deg, rgb(66, 225, 214), rgb(29, 48, 130));
+}
+
+.categories_sm{
+    font-size:small;
 }
