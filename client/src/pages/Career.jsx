@@ -4,6 +4,17 @@ import {nav,footer} from './Home.jsx';
 import job_tittle from '../assets/job_tittle.png'
 import exprience from '../assets/exprience.jpg'
 import joining from '../assets/joining.jpg'
+import webdev from '../assets/webdev.jpg'
+import seo from '../assets/seo.png'
+import ui_ux from '../assets/ui_ux.jpg'
+import angular from '../assets/angular.png'
+import ios from '../assets/ios.png'
+import php from '../assets/php.png'
+import graphic_design from '../assets/graphic_design.png'
+import react from '../assets/react.png'
+import marketing from '../assets/marketing.png'
+import seo_execution from '../assets/seo_execution.png'
+import ios_developer from '../assets/ios_developer.webp'
 import '../cascading/career.css'
 
 export default function Career() {
@@ -81,7 +92,7 @@ export default function Career() {
                       <p className='mx-auto my-auto categories_sm'>10+ Availability</p>
                     </div>
                     <div className='col-4 d-flex p-2'>
-                      <img src="https://www.ameotech.com/images/web-developer-icon.png" alt="" className='col-6 my-auto ms-auto'/>
+                      <img src={webdev} alt="" className='col-md-6 col-3 my-auto ms-auto'/>
                     </div>
                   </div>
               </div>
@@ -92,7 +103,7 @@ export default function Career() {
                       <p className='mx-auto my-auto categories_sm'>5+ Availability</p>
                     </div>
                     <div className='col-4 d-flex p-2'>
-                      <img src="https://www.ameotech.com/images/web-developer-icon.png" alt="" className='col-6 my-auto ms-auto'/>
+                      <img src={seo} alt="" className='col-md-6 col-3 my-auto ms-auto'/>
                     </div>
                   </div>
               </div>
@@ -103,18 +114,18 @@ export default function Career() {
                       <p className='mx-auto my-auto categories_sm'>3+ Availability</p>
                     </div>
                     <div className='col-4 d-flex p-2'>
-                      <img src="https://www.ameotech.com/images/web-developer-icon.png" alt="" className='col-6 my-auto ms-auto'/>
+                      <img src={ui_ux} alt="" className='col-md-6 col-3 my-auto ms-auto'/>
                     </div>
                   </div>
               </div>
               <div className='col-md-3 col-12 mx-auto px-2'>
                   <div className='m-1 border rounded row'>
-                    <div className='col-8 d-flex p-2 row'>
+                    <div className='col-9 d-flex p-2 row'>
                       <p className='mx-auto my-auto'>Angular Developer</p>
                       <p className='mx-auto my-auto categories_sm'>8+ Availability</p>
                     </div>
-                    <div className='col-4 d-flex p-2'>
-                      <img src="https://www.ameotech.com/images/web-developer-icon.png" alt="" className='col-6 my-auto ms-auto'/>
+                    <div className='col-3 d-flex p-2'>
+                      <img src={angular} alt="" className='col-md-7 col-3 my-auto ms-auto'/>
                     </div>
                   </div>
               </div>
@@ -125,7 +136,7 @@ export default function Career() {
                       <p className='mx-auto my-auto categories_sm'>2+ Availability</p>
                     </div>
                     <div className='col-4 d-flex p-2'>
-                      <img src="https://www.ameotech.com/images/web-developer-icon.png" alt="" className='col-6 my-auto ms-auto'/>
+                      <img src={ios} alt="" className='col-md-5 col-3 my-auto ms-auto'/>
                     </div>
                   </div>
               </div>
@@ -136,7 +147,7 @@ export default function Career() {
                       <p className='mx-auto my-auto categories_sm'>4+ Availability</p>
                     </div>
                     <div className='col-4 d-flex p-2'>
-                      <img src="https://www.ameotech.com/images/web-developer-icon.png" alt="" className='col-6 my-auto ms-auto'/>
+                      <img src={php} alt="" className='col-md-6 col-3 my-auto ms-auto'/>
                     </div>
                   </div>
               </div>
@@ -147,7 +158,7 @@ export default function Career() {
                       <p className='mx-auto my-auto categories_sm'>7+ Availability</p>
                     </div>
                     <div className='col-3 d-flex p-2'>
-                      <img src="https://www.ameotech.com/images/web-developer-icon.png" alt="" className='col-8 my-auto ms-auto'/>
+                      <img src={graphic_design} alt="" className='col-md-5 col-4 my-auto ms-auto'/>
                     </div>
                   </div>
               </div>
@@ -158,7 +169,7 @@ export default function Career() {
                       <p className='mx-auto my-auto categories_sm'>9+ Availability</p>
                     </div>
                     <div className='col-4 d-flex p-2'>
-                      <img src="https://www.ameotech.com/images/web-developer-icon.png" alt="" className='col-6 my-auto ms-auto'/>
+                      <img src={react} alt="" className='col-md-6 col-3 my-auto ms-auto'/>
                     </div>
                   </div>
               </div>
@@ -172,10 +183,10 @@ export default function Career() {
 
 
       <section className='container-fluid row linear_grad p-4'>
-        <div className='col-md-6 col-12 container'>
-          <div className='col-10 mx-auto text-white'>
-            <h1>Join The Ameotech Informatic Team Smiley Icon</h1>
-            <p>Ameotech Informatic, we’re a dynamic team driving innovation and excellence in technology. Join us and work on cutting-edge projects, grow your skills, and make a real impact. Whether you're an experienced professional or just starting your career, we offer opportunities for growth in a supportive and collaborative environment. Be part of a team shaping the future of tech! </p>
+        <div className='col-md-6 col-12 container text-white'>
+          <div className='col-10 mx-auto'>
+            <h1>Become a Part of the Pratibha IT Solution Team</h1>
+            <p>At Pratibha IT Solution, we are a passionate team committed to innovation and technological excellence. Join us to work on groundbreaking projects, enhance your skills, and make a meaningful impact. Whether you’re an industry expert or beginning your career, we provide a nurturing and collaborative space for growth. Become a part of a team that’s shaping the future of technology!</p>
             <button type="button" class="btn btn-primary">Apply Now</button>
           </div>
         </div>
@@ -204,14 +215,12 @@ export default function Career() {
                     <h4 class="mb-0 fw-bold">Marketing Manager</h4>
                     <p class="mb-0 full-time">Full time</p>
                     <p class="pt-3 job-des">
-                      The Marketing Manager will drive brand growth through
-                      strategic campaigns across digital, social, and content
-                      channels, while leading a marketing team.
+                      The Marketing Manager will lead brand expansion by executing strategic campaigns across digital, social, and content platforms while managing and guiding the marketing team.
                     </p>
               
                   </div>
                   <div class="image-container ms-3">
-                    <img src="https://www.ameotech.com/images/marketing-icon.png" alt="Marketing Manager" class="img-fluid" style={{maxWidth:"100px"}}/>
+                    <img src={marketing} alt="Marketing Manager" class="img-fluid" style={{maxWidth:"100px"}}/>
                   </div>
                 </div>
                 <div class="filed-cards-btn text-center mb-3">
@@ -229,13 +238,12 @@ export default function Career() {
                     <h4 class="mb-0 fw-bold">SEO Executive</h4>
                     <p class="mb-0 full-time">Full time</p>
                     <p class="pt-3 job-des">
-                      The SEO Executive will optimize website content, improve search rankings,
-                      and monitor performance. Responsibilities include keyword research.
+                      The SEO Executive will enhance website visibility, boost search rankings, and track performance. Key responsibilities include conducting keyword research and optimizing content.
                     </p>
             
                   </div>
                   <div class="image-container ms-3">
-                    <img src="https://www.ameotech.com/images/seo-person.png" alt="SEO Executive" class="img-fluid" style={{maxWidth:"100px"}}/>
+                    <img src={seo_execution} alt="SEO Executive" class="img-fluid" style={{maxWidth:"100px"}}/>
                   </div>
                 </div>
                   <div class="filed-cards-btn text-center mb-3">
@@ -255,14 +263,12 @@ export default function Career() {
                     <h4 class="mb-0 fw-bold">iOS Developer</h4>
                     <p class="mb-0 full-time">Full time</p>
                     <p class="pt-3 job-des">
-                      The iOS Developer will design, develop, and maintain iOS
-                      applications. Expertise in Swift, Objective-C, and Apple's
-                      development ecosystem.
+                      The iOS Developer will be responsible for designing, developing, and maintaining iOS applications, requiring proficiency in Swift, Objective-C, and Apple's development framework.
                     </p>
                 
                   </div>
                   <div class="image-container ms-3">
-                    <img src="https://www.ameotech.com/images/ios-dev.png" alt="iOS Developer" class="img-fluid" style={{maxWidth:"100px"}}/>
+                    <img src={ios_developer} alt="iOS Developer" class="img-fluid" style={{maxWidth:"100px"}}/>
                   </div>
                 </div>
                 <div class="filed-cards-btn text-center mb-3">
