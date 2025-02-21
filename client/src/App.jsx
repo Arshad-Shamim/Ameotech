@@ -7,6 +7,11 @@ import Technologies from './pages/Technologies.jsx'
 import Aboutus from './pages/Aboutus.jsx';
 import Contactus from './pages/Contactus.jsx';
 import Career from './pages/Career.jsx';
+import WebsiteDev from './pages/services/WebsiteDev.jsx';
+import MobileDev from './pages/services/MobileDev.jsx';
+import CustomSoftware from './pages/services/CustomSoftware.jsx';
+import DigitalMarketing from './pages/services/DigitalMarketing.jsx';
+import ProductDesign from './pages/services/ProductDesign.jsx';
 
 function App(){
   return(
@@ -17,6 +22,13 @@ function App(){
       <Route path="/aboutus" element={<Aboutus/>}/>
       <Route path="/contactus"element={<Contactus/>}/>
       <Route path="/career" element={<Career/>}/>
+      <Route path="/services">
+        <Route path="website" element={<WebsiteDev/>}/>
+        <Route path="mobileapp" element={<MobileDev/>}/>
+        <Route path="software" element={<CustomSoftware/>}/>
+        <Route path="productdesign" element={<ProductDesign/>}/>
+        <Route path="digitalmarketing" element={<DigitalMarketing/>}/>
+      </Route>
     </Routes>
   )
 }

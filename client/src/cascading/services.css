@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#section1{
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgb(66, 225, 214), rgb(29, 48, 130));
+}

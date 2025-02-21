@@ -70,12 +70,12 @@ function nav(){
                             </svg>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                            <li class="mb-2"><a class="dropdown-item" href="mobileapp.html">Mobile App Development</a></li>
-                            <li class="mb-2"><a class="dropdown-item" href="webdevelop.html">Web App Development</a></li>
-                            <li class="mb-2"><a class="dropdown-item" href="development.html">Custom Software Development
+                            <li class="mb-2"><a class="dropdown-item" href="/services/mobileapp">Mobile App Development</a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="/services/website">Web App Development</a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="/services/software">Custom Software Development
                                 Services</a></li>
-                            <li class="mb-2"><a class="dropdown-item" href="product.html">Product Design</a></li>
-                            <li class="mb-2"><a class="dropdown-item" href="digital.html">Digital Marketing</a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="/services/productdesign">Product Design</a></li>
+                            <li class="mb-2"><a class="dropdown-item" href="/services/digitalmarketing">Digital Marketing</a></li>
                             </ul>
                         </li>
 
@@ -208,13 +208,13 @@ function footer(){
                         <li><a href="/aboutus" class="footer-nav">About Us</a></li>
                         <li><a href="/career" class="footer-nav">Career</a></li>
                         <li>
-                        <a href="services.html" class="footer-nav">Services</a>
+                          <a href="services.html" class="footer-nav">Services</a>
                         </li>
                         <li>
-                        <a href="/technologies" class="footer-nav">Technologies</a>
+                          <a href="/technologies" class="footer-nav">Technologies</a>
                         </li>
                         <li>
-                        <a href="/contactus" class="footer-nav">Contact Us</a>
+                          <a href="/contactus" class="footer-nav">Contact Us</a>
                         </li>
                     </ul>
                     </div>
