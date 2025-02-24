@@ -12,8 +12,8 @@ export default function MobileDev() {
 
         <section id="section1" className='container-fluid row py-4'>
             <div className='col-md-7 col-12 d-flex'>
-                <div className='mx-auto my-auto col-md-8 col-10'>
-                    <h1>Custom Mobile App Solutions to Elevate Your Brand</h1>
+                <div className='mx-auto my-auto col-10 text-white'>
+                    <h1 className='fw-bolder'>Custom Mobile App Solutions to Elevate Your Brand</h1>
                     <p>Ameotech Informatics develops custom iOS and Android apps tailored to your business goals. We deliver scalable, user-focused solutions for customer engagement, e-commerce, and enterprise needs, ensuring high performance and growth. </p>
                 </div>
             </div>
@@ -34,7 +34,7 @@ export default function MobileDev() {
                     </div>
 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 tech-text" id="right-tech-web">
-                        <h1 id="use-tech">Technologies We Use to Build Powerful Web Solutions</h1>
+                        <h1 id="use-tech">Technologies We Use to Build Powerful Mobile Apps Solutions</h1>
                         <img src="https://www.ameotech.com/images/tech-images-all.svg" loading="lazy" alt="web-development-all" class="img-fluid right-section"/>
                     </div>
                 </div>
@@ -42,8 +42,11 @@ export default function MobileDev() {
 
             <div className='container-fluid my-4'>
                 <div className='col-md-11 col-12  text-center mx-auto'>
-                    <h1 className='fw-bold'>Leading-Edge Web Development Services We Offer</h1>
-                    <p>We specialize in transforming ideas into innovative products through comprehensive ideation and design processes. Our services cover everything from initial concept development to detailed product design, ensuring a seamless path from vision to creation.</p>
+                    <h1 className='fw-bold'>Leading-Edge Mobile App Development Services We Offer</h1>
+                    <p>We offer cutting-edge mobile app development services, creating custom iOS and Android apps that
+                        deliver seamless user experiences and robust functionality. From concept to launch, we help bring your
+                        ideas to life with innovative, high-performance solutions.
+                    </p>
                 </div>
             </div>
         </section>
@@ -64,7 +67,7 @@ export default function MobileDev() {
 
             <div className='col-md-6 col-12 d-flex'>
                 <div className='col-10 col-md-11  my-md-4 pt-md-3 text-white mx-md-0 mx-auto'>
-                    <h1>Mobile App Development</h1>
+                    <h2 className='fw-bold'>Mobile App Development</h2>
                     <p>At Ameotech Informatics, we craft custom iOS and apps that offer seamless, intuitive experiences. From concept to launch, we deliver scalable, high-performance solutions tailored to your business goals. </p>
                 </div>
             </div>
