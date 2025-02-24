@@ -101,6 +101,101 @@ export default function MobileDev() {
             </div>
         </section>
 
+        <section class="partnered-section common-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 product-text-web text-center">
+                        <h2 id="driving-heading">
+                            Driving Business Success with Mobile-First Excellence
+                        </h2>
+                        <p id="drive-para">
+                            We help drive business success by delivering mobile-first
+                            solutions that enhance user experiences and boost engagement. Our
+                            expert team creates high-performance, intuitive apps optimized for
+                            mobile devices, ensuring your business stays ahead in a
+                            mobile-driven world. Let us help you unlock the full potential of
+                            mobile technology to accelerate growth and success.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="back-content-filled d-flex flex-column" style={{height:"100%"}}>
+                            <div class="fileds-cards-one d-flex" style={{alignItems:"stretch"}}>
+                                {/* <!-- Content Section --> */}
+                                <div class="image-container">
+                                    <img src="https://www.ameotech.com/images/platform%201.png" loading="lazy" alt="Marketing Manager" class="img-fluid" style={{maxWidth:"100px"}}/>
+                                </div>
+                                <div class="inner-field-one d-flex flex-column ms-3" style={{flexGrow:"1"}}>
+                                    <h4 class="mb-0">Cross Platform</h4>
+
+                                    <p class="pt-3 card-para">
+                                        Our cross-platform mobile app development ensures your app
+                                        works seamlessly on both iOS and Android, saving time and
+                                        costs while reaching a wider audience. We deliver
+                                        high-quality .
+                                    </p>
+                                </div>
+                                {/* <!-- Image Section --> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="back-content-filled d-flex flex-column" style={{height:"100%"}}>
+                            <div class="fileds-cards-one d-flex card-responsive" style={{alignItems:"stretch"}}>
+                                {/* <!-- Content Section --> */}
+                                <div class="image-container">
+                                    <img src="https://www.ameotech.com/images/speed%201.png" loading="lazy" alt="Marketing Manager" class="img-fluid" style={{maxWidth:"100px"}}/>
+                                </div>
+                                <div class="inner-field-one d-flex flex-column ms-3" style={{flexGrow:"1"}}>
+                                    <h4 class="mb-0">Faster Loads, Better Experience.</h4>
+
+                                    <p class="pt-3 card-para">
+                                        Optimizing load times for faster, smoother user experiences. Improve engagement,
+                                        retention, and performance by reducing delays and enhancing overall
+                                        satisfaction. A quicker load time leads to higher user retention and better
+                                        business outcomes.
+                                    </p>
+                                </div>
+                                {/* <!-- Image Section --> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="back-content-filled d-flex flex-column" style={{height:"100%"}}>
+                            <div class="fileds-cards-one d-flex" style={{alignItems:"stretch"}}>
+                                {/* <!-- Content Section --> */}
+                                <div class="image-container">
+                                    <img src="https://www.ameotech.com/images/ui-design%201.png" loading="lazy" alt="Marketing Manager" class="img-fluid" style={{maxWidth:"100px"}}/>
+                                </div>
+                                <div class="inner-field-one d-flex flex-column ms-3" style={{flexGrow:"1"}}>
+                                    <h4 class="mb-0">
+                                        Seamless User Experience Across Devices
+                                    </h4>
+                                    <p class="pt-3 card-para">
+                                        We create mobile apps that deliver a consistent, intuitive
+                                        experience across all devices. Whether on smartphones or
+                                        desktops..
+                                    </p>
+                                </div>
+                                {/* <!-- Image Section --> */}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            {footer()}
+        </section>
+
     </>
   )
 }
