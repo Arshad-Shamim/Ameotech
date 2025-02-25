@@ -4,9 +4,9 @@
     font-family: sans-serif;
 }
 
-#section2{
+#section2_contactus{
     min-height:120vh;
-    background-image: url('../assets/contactus.png');
+    background-image: url('../assets/contactus_pg_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -8,3 +8,10 @@
     min-height: 100vh;
     background: linear-gradient(90deg, rgb(66, 225, 214), rgb(29, 48, 130));
 }
+
+#section2_custom_software{
+    min-height:120vh;
+    background-image: url('../assets/software_pg_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

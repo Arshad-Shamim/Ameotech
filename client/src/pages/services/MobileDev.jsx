@@ -78,19 +78,19 @@ export default function MobileDev() {
             <div class="container customize-box py-5 my-4">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-between flex-wrap">
-                        <div class="col-md-3">
+                        <div class="col-md-3 mx-auto">
                             <div class="number-count text-center">
                                 <h4>17+</h4>
                                 <p>Years in Custom Software Development.</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 mx-auto">
                             <div class="number-count text-center">
                                 <h4>2000+</h4>
                                 <p>Successfully Delivered Software Projects.</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 mx-auto">
                             <div class="number-count text-center">
                                 <h4>95%</h4>
                                 <p>Customer Retention Rate Metrics..</p>

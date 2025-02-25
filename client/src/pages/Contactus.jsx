@@ -14,7 +14,7 @@ export default function Contactus() {
         </section>
 
         <section>
-            <div id="section2" className='container-fluid row p-md-0 m-0 py-4'>
+            <div id="section2_contactus" className='container-fluid row p-md-0 m-0 py-4'>
                 <div className='container-fluid col-md-6 col-12 text-white d-flex'>
                     <div className='col-10 mx-auto my-md-auto my-4'>
                         <h1 className='text-uppercase fs-1 fw-bold'>Kickstart Your Digital Evolution Today</h1>
