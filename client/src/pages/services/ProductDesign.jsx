@@ -10,19 +10,18 @@ export default function ProductDesign() {
         {nav()}
       </section>
 
-      <section id="section1" className='container-fluid row py-4'>
-            <div className='col-md-6 col-12 d-flex'>
-                <div className='mx-auto my-auto col-10 text-white'>
-                    <h1 className='fw-bolder'>Product Design and Concept Ideation Services</h1>
-                    <p>Product Design and Concept Ideation Services help businesses transform ideas into innovative, user centered products. This includes brainstorming, concept development, user research, and creating a clear design strategy to ensure the product is functional, visually appealing, and market-ready.</p>
-                </div>
+      <section style={{background:"linear-gradient(90deg, rgb(66, 225, 214), rgb(29, 48, 130))"}}>
+
+        <div className='col-md-10 py-5 col-11 mx-auto'>
+            <div className='text-center'>
+                <h1 className='fw-bold text-warning text-uppercase'>Product Design and Concept Ideation Services</h1>
+                <h5 className='text-white'>Product Design and Concept Ideation Services help businesses transform ideas into innovative, user centered products. This includes brainstorming, concept development, user research, and creating a clear design strategy to ensure the product is functional, visually appealing, and market-ready.</h5>
             </div>
 
-            <div className='col-md-6 col-12 d-flex'>
-                <div className='mx-auto my-auto col-11'>
-                    <img src="https://www.ameotech.com/images/product-hero-img.png" alt="" className='img-fluid'/>
-                </div>
+            <div className='my-5 pt-5'>
+                <img src="https://www.ameotech.com/images/product-hero-img.png" alt="loading..."/>
             </div>
+        </div>
       </section>
 
       <section className='my-4'>
