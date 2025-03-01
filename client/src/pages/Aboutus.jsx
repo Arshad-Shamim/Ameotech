@@ -2,6 +2,7 @@ import React from 'react'
 
 import {nav,footer} from './Home.jsx';
 import viedo from '../assets/viedo1.mp4'
+import '../cascading/aboutus.css'
 
 export default function Aboutus() {
   return (
@@ -31,6 +32,110 @@ export default function Aboutus() {
           </div>
         </div>
       </section>      
+
+      <section class="work-wire common-padding mt-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 work-culture mb-2">
+              <img src="https://www.ameotech.com/images/Group%2086.png"/>
+              <div class="col-12 mt-3">
+                <img src="https://www.ameotech.com/images/exp-image-new.jpg" class="img-fluid"/>
+              </div>
+
+            </div>
+            <div class="col-lg-6">
+              <div>
+                <h6 class="fs-3 fw-bold text-center text-md-start" style={{color:"#1933b5"}}>About Us</h6>
+                <h2 class="mt-3 text-uppercase common-headings text-center text-md-start">
+                  We’re a diverse, passionate group of tech enthusiasts
+                </h2>
+                <p class="mb-5 text-center text-md-start" id="work-tireless-para">
+                  We are a dynamic team of individuals from different backgrounds
+                  and perspectives, each bringing unique skills and insights to
+                  the table. Our collective passion drives us to push boundaries,
+                  challenge conventions, and continuously learn in an
+                  ever-evolving tech landscape. From groundbreaking projects to
+                  hands-on experimentation, we foster an environment where
+                  creativity thrives and ideas come to life.
+                </p>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="border-heading align-items-center justify-content-center" >
+                      <h4 class="text-center text-md-start text-color" style={{color:"#1933b5"}}>500+</h4>
+                      <h6 class="text-center text-md-start">Projects Completed</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="border-heading align-items-center justify-content-center">
+                      <h4 class="text-center text-md-start" style={{color:"#1933b5"}}>200+</h4>
+                      <h6 class="text-center text-md-start">Satisfied Customers.</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="border-heading align-items-center justify-content-center">
+                      <h4 class="text-center text-md-start" style={{color:"#1933b5"}}>4.2</h4>
+                      <h6 class="text-center text-md-start">Employee Happiness Index.</h6>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-sm-6">
+                    <div class="border-heading align-items-center justify-content-center">
+                      <h4 class="text-center text-md-start" style={{color:"#1933b5"}}>90+</h4>
+                      <h6 class="text-center text-md-start">
+                        Awards &amp; <br/>
+                        Certifications.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="choose p-0 pb-md-4 mx-auto d-flex align-items-center justify-content-center flex-column">
+            <h2 class="text-uppercase text-center common-headings">
+                Our <span class="colored-red-heading" style={{color:"#1933b5"}}>People </span>Are <span class="colored-red-heading" style={{color:"#1933b5"}}> Pioneers</span>
+              </h2>
+              <p class="text-left text-center">
+                Driven by an expert leadership team and a highly skilled,
+                certified tech workforce, we provide comprehensive IT support for
+                both large and small-scale projects. With decades of combined
+                experience, our team of certified developers and technicians is
+                equipped to handle a wide range of technological challenges,
+                ensuring seamless solutions for every need.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-12 d-flex flex-column align-items-center text-center mb-4">
+                <div class="vision-text-heading">
+                  <h6 class="card-red-heading" style={{color:"#1933b5"}}><b>Our Vision</b></h6>
+                  <p>Consistently exceeding expectations.</p>
+                </div>
+                <div class="border-line-red w-75" style={{backgroundColor:"#1933b5"}}></div>
+              </div>
+              <div class="col-md-4 col-12 d-flex flex-column align-items-center text-center mb-4">
+                <div class="vision-text-heading">
+                  <h6 class="card-red-heading" style={{color:"#1933b5"}}><b>Our Mission</b></h6>
+                  <p>Timely Delivery of Exceptional Services.</p>
+                </div>
+                <div class="border-line-red w-75" style={{backgroundColor:"#1933b5"}}></div>
+              </div>
+              <div class="col-md-4 col-12 d-flex flex-column align-items-center text-center mb-4">
+                <div class="vision-text-heading">
+                  <h6 class="card-red-heading" style={{color:"#1933b5"}}><b>Our Motto</b></h6>
+                  <p>Your Success Drives Our Success!</p>
+                </div>
+                <div class="border-line-red w-75" style={{backgroundColor:"#1933b5"}}></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
