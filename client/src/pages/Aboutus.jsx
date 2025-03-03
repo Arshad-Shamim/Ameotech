@@ -140,7 +140,7 @@ export default function Aboutus() {
 
       <section className='linear_gradient'>
         <div>
-          <h1 className='text-center py-4 text-warning fw-bold'>The Story of Pratibha IT Solution</h1>
+          <h1 className='text-center pt-5  text-warning fw-bold'>The Story of Pratibha IT Solution</h1>
         </div>
         <div className='col-12'>
           <div className='text-center'>
@@ -148,8 +148,63 @@ export default function Aboutus() {
           </div>
         </div>
 
-        <div className='col-11 text-center mx-auto'>
+        <div className='col-11 text-center mx-auto pt-4 pb-5'>
           <p className='text-white fs-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, harum deserunt eius possimus id sapiente cum at facilis natus. Aut temporibus mollitia exercitationem nostrum quod molestias hic, nihil enim eius, itaque voluptatum fugit sint illum vel a magni dolore! Tempore unde id dicta quae, nam consectetur. Laboriosam necessitatibus dignissimos exercitationem corrupti in perspiciatis provident repudiandae, labore reprehenderit consectetur sit odio voluptate? Aut ad, et, debitis, labore nemo provident in alias non aperiam minus quidem voluptatum commodi. Delectus, labore pariatur? Vel qui iste doloremque ullam provident, repellendus delectus placeat, nisi sequi impedit numquam doloribus! Animi explicabo dolor consequuntur quas possimus rerum!</p>
+        </div>
+      </section>
+
+      <section class="work-wire common-padding">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 work-culture">
+              <div class="work-less">
+                <h2 class="common-headings colored-red-heading text-center text-md-start">We Work Tirelessly</h2>
+                <p id="work-tireless-para" class="text-center text-md-start">
+                  We work tirelessly to deliver exceptional software solutions
+                  tailored to our clients' needs. Our passionate team is committed
+                  to innovation and excellence, consistently exceeding
+                  expectations and overcoming challenges. With a relentless focus
+                  on quality, we transform ideas into impactful results that drive
+                  success.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-8 mb-5 mb-md-0">
+                  <div class="dotted-border p-5">
+                    <h3 class="card-red-heading">OUR WORK CULTURE</h3>
+                    <div class="d-flex align-items-start right-section-content mb-4">
+                      <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 title-content-one">
+                        <img src="https://www.ameotech.com/images/Frame%2095.png" alt="Dotted shape" class="img-fluid"/>
+                        <h4 class="ms-1" id="sub-title-one">
+                          Fostering Inspiring Innovations.
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start right-section-content mb-4">
+                      <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 title-content-one">
+                        <img src="https://www.ameotech.com/images/Frame%2095.png" alt="Dotted shape" class="img-fluid"/>
+                        <h4 class="ms-1" id="sub-title-two">
+                          Promotes Personal Growth..
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start right-section-content mb-4">
+                      <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 title-content-one">
+                        <img src="https://www.ameotech.com/images/Frame%2095.png" alt="Dotted shape" class="img-fluid"/>
+                        <h4 class="ms-1" id="sub-title-three">
+                          Encourages Work-Life Harmony.
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+            <div class="col-lg-6">
+              <img src="https://www.ameotech.com/images/cup-in-hand.png" class="align-right"/>
+            </div>
+          </div>
         </div>
       </section>
     </>
