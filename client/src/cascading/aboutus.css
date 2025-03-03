@@ -6,3 +6,7 @@
 .text-color{
     color: #1933b5;
 }
+
+.linear_gradient{
+    background: linear-gradient(90deg, rgb(66, 225, 214), rgb(29, 48, 130));
+}

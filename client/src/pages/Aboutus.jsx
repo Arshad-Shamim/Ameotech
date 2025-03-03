@@ -2,6 +2,7 @@ import React from 'react'
 
 import {nav,footer} from './Home.jsx';
 import viedo from '../assets/viedo1.mp4'
+import story from '../assets/story.webp'
 import '../cascading/aboutus.css'
 
 export default function Aboutus() {
@@ -134,6 +135,21 @@ export default function Aboutus() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className='linear_gradient'>
+        <div>
+          <h1 className='text-center py-4 text-warning fw-bold'>The Story of Pratibha IT Solution</h1>
+        </div>
+        <div className='col-12'>
+          <div className='text-center'>
+            <img src={story} alt="" className='img-fluid h-25 w-75 rounded my-4'/>
+          </div>
+        </div>
+
+        <div className='col-11 text-center mx-auto'>
+          <p className='text-white fs-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, harum deserunt eius possimus id sapiente cum at facilis natus. Aut temporibus mollitia exercitationem nostrum quod molestias hic, nihil enim eius, itaque voluptatum fugit sint illum vel a magni dolore! Tempore unde id dicta quae, nam consectetur. Laboriosam necessitatibus dignissimos exercitationem corrupti in perspiciatis provident repudiandae, labore reprehenderit consectetur sit odio voluptate? Aut ad, et, debitis, labore nemo provident in alias non aperiam minus quidem voluptatum commodi. Delectus, labore pariatur? Vel qui iste doloremque ullam provident, repellendus delectus placeat, nisi sequi impedit numquam doloribus! Animi explicabo dolor consequuntur quas possimus rerum!</p>
         </div>
       </section>
     </>
