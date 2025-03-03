@@ -207,6 +207,98 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
+
+
+      <section class="slider-bg common-padding-new linear_gradient">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <h4 class="text-white m-0 text-center text-md-start">
+                Kickstart Your Journey with <b><span class="text-warning">
+                    Ameotech
+                  </span></b>
+              </h4>
+              <p class="text-white m-0 text-center text-md-start">
+                Transform your business and go digital with our innovative
+                web-based solutions.
+              </p>
+            </div>
+            <div class="col-md-4 text-center text-md-start mt-3 mt-md-0">
+              <a href="./contact.html">
+                <button class="explore">Explore Now</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blue-bg-about  mb-5 linear_gradient">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-white uppercase text-center common-headings pt-5">
+                Our Leadership Team
+              </h2>
+            </div>
+            <div class="images-group d-flex justify-content-center mt-5 mb-5">
+              <img src="https://www.ameotech.com/images/Group%2089.png" alt="Image 89" class="image-item"/>
+              <img src="https://www.ameotech.com/images/Group%2090.png" alt="Image 90" class="image-item"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-us common-padding">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <div class="contact-img">
+                <img src="https://www.ameotech.com/images/Mask%20group%20(9).png" loading="lazy"/>
+              </div>
+            </div>
+            <div class="col-lg-4">
+            <h2 class="common-headings gen-subtitle"> Let's Talk </h2>
+              <form id="form-div">
+                <div class="row mb-3">
+                  <div class="col-md-12">
+                    <input type="text" class="form-control custom-input" id="name" placeholder="Your Name" required=""/>
+                  </div>
+                  <div class="col-md-12">
+                    <input type="email" class="form-control custom-input" id="email" placeholder="Your Work Email" required=""/>
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <div class="col-md-12">
+                    <select class="form-select custom-input" id="budget" required="">
+                      <option selected="" disabled="">Select Budget</option>
+                      <option value="under-1000">$0 - $1,000</option>
+                      <option value="1000-5000">$1,000 - $5,000</option>
+                      <option value="5000-10000">$5,000 - $10,000</option>
+                      <option value="over-10000">$10,000+</option>
+                    </select>
+                  </div>
+                  <div class="col-md-12">
+                    <input type="text" class="form-control" id="floatingMobile" placeholder="Mobile"style={{paddingLeft:"15px"}} maxlength="10" required="" oninput="this.value=this.value.replace(/[^0-9]/g,'');"/>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <button class="btn btn-primary common-btn" id="service-btn">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        {footer()}
+      </section>
     </>
   )
 }
