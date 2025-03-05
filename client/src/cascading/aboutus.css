@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    overflow: hidden;
+}
+
 .text-color{
     color: #1933b5;
 }

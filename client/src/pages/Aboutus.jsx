@@ -3,6 +3,10 @@ import React from 'react'
 import {nav,footer} from './Home.jsx';
 import viedo from '../assets/viedo1.mp4'
 import story from '../assets/story.webp'
+import aboutus2 from '../assets/aboutus2.jpg'
+import aboutus1 from '../assets/aboutus1.webp'
+import let_talk from '../assets/let_talk.webp'
+import Tirelessly from '../assets/Tirelessly.avif'
 import '../cascading/aboutus.css'
 
 export default function Aboutus() {
@@ -24,10 +28,10 @@ export default function Aboutus() {
             <div class="row align-items-center g-5 py-5 ps-3">
               <div class="col-12 col-lg-8 text-center text-lg-start heading-text d-flex align-items-start">
                 <h1 class="text-start" id="top-heading">
-                Your Trusted Partner in Transformation, Guiding You Toward <span className='text-warning'>Success</span>
+                Your Reliable Ally in Growth, Leading You<span className='text-warning'> to Achievement.</span>
                 </h1>
                 <p class="text-start w-100" id="top-heading-para">
-                  At Ameotech Informatics, we are your trusted partner in transformation, offering expert guidance to turn challenges into opportunities. We work closely with you to deliver tailored solutions that drive success and achieve your goals, every step of the way                </p>
+                  At Pratibha IT Solution, we are your trusted partner in transformation, offering expert guidance to turn challenges into opportunities. We work closely with you to deliver tailored solutions that drive success and achieve your goals, every step of the way.                </p>
               </div>
             </div>
           </div>
@@ -38,9 +42,9 @@ export default function Aboutus() {
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 work-culture mb-2">
-              <img src="https://www.ameotech.com/images/Group%2086.png"/>
+              <img src={aboutus1} className="rounded"/>
               <div class="col-12 mt-3">
-                <img src="https://www.ameotech.com/images/exp-image-new.jpg" class="img-fluid"/>
+                <img src={aboutus2} class="img-fluid rounded"/>
               </div>
 
             </div>
@@ -48,33 +52,27 @@ export default function Aboutus() {
               <div>
                 <h6 class="fs-3 fw-bold text-center text-md-start" style={{color:"#1933b5"}}>About Us</h6>
                 <h2 class="mt-3 text-uppercase common-headings text-center text-md-start">
-                  We’re a diverse, passionate group of tech enthusiasts
+                  We are a dynamic and passionate team of technology enthusiasts.
                 </h2>
                 <p class="mb-5 text-center text-md-start" id="work-tireless-para">
-                  We are a dynamic team of individuals from different backgrounds
-                  and perspectives, each bringing unique skills and insights to
-                  the table. Our collective passion drives us to push boundaries,
-                  challenge conventions, and continuously learn in an
-                  ever-evolving tech landscape. From groundbreaking projects to
-                  hands-on experimentation, we foster an environment where
-                  creativity thrives and ideas come to life.
+                  We are a vibrant team of professionals with diverse backgrounds and perspectives, each contributing unique skills and insights. United by our passion for technology, we strive to push boundaries, challenge norms, and embrace continuous learning in an ever-evolving digital world. From innovative projects to hands-on exploration, we cultivate an environment where creativity flourishes and ideas turn into reality.
                 </p>
                 <div class="row">
                   <div class="col-md-6 col-sm-6">
                     <div class="border-heading align-items-center justify-content-center" >
-                      <h4 class="text-center text-md-start text-color" style={{color:"#1933b5"}}>500+</h4>
+                      <h4 class="text-center text-md-start text-color" style={{color:"#1933b5"}}>300+</h4>
                       <h6 class="text-center text-md-start">Projects Completed</h6>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-6">
                     <div class="border-heading align-items-center justify-content-center">
-                      <h4 class="text-center text-md-start" style={{color:"#1933b5"}}>200+</h4>
+                      <h4 class="text-center text-md-start" style={{color:"#1933b5"}}>100+</h4>
                       <h6 class="text-center text-md-start">Satisfied Customers.</h6>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-6">
                     <div class="border-heading align-items-center justify-content-center">
-                      <h4 class="text-center text-md-start" style={{color:"#1933b5"}}>4.2</h4>
+                      <h4 class="text-center text-md-start" style={{color:"#1933b5"}}>4.3</h4>
                       <h6 class="text-center text-md-start">Employee Happiness Index.</h6>
                     </div>
                   </div>
@@ -103,12 +101,7 @@ export default function Aboutus() {
                 Our <span class="colored-red-heading" style={{color:"#1933b5"}}>People </span>Are <span class="colored-red-heading" style={{color:"#1933b5"}}> Pioneers</span>
               </h2>
               <p class="text-left text-center">
-                Driven by an expert leadership team and a highly skilled,
-                certified tech workforce, we provide comprehensive IT support for
-                both large and small-scale projects. With decades of combined
-                experience, our team of certified developers and technicians is
-                equipped to handle a wide range of technological challenges,
-                ensuring seamless solutions for every need.
+                Led by an experienced leadership team and a highly skilled, certified tech workforce, we offer end-to-end IT support for projects of all sizes. With years of collective expertise, our certified developers and technicians are well-equipped to tackle diverse technological challenges, delivering seamless and efficient solutions for every requirement.
               </p>
             </div>
             <div class="row">
@@ -160,12 +153,7 @@ export default function Aboutus() {
               <div class="work-less">
                 <h2 class="common-headings colored-red-heading text-center text-md-start">We Work Tirelessly</h2>
                 <p id="work-tireless-para" class="text-center text-md-start">
-                  We work tirelessly to deliver exceptional software solutions
-                  tailored to our clients' needs. Our passionate team is committed
-                  to innovation and excellence, consistently exceeding
-                  expectations and overcoming challenges. With a relentless focus
-                  on quality, we transform ideas into impactful results that drive
-                  success.
+                  We are dedicated to providing top-notch software solutions customized to meet our clients' unique needs. Our passionate team thrives on innovation and excellence, consistently surpassing expectations and tackling challenges head-on. With an unwavering commitment to quality, we turn ideas into powerful solutions that drive success.
                 </p>
               </div>
               <div class="row">
@@ -202,7 +190,7 @@ export default function Aboutus() {
         
             </div>
             <div class="col-lg-6">
-              <img src="https://www.ameotech.com/images/cup-in-hand.png" class="align-right"/>
+              <img src={Tirelessly} class="align-right"/>
             </div>
           </div>
         </div>
@@ -215,12 +203,11 @@ export default function Aboutus() {
             <div class="col-md-8">
               <h4 class="text-white m-0 text-center text-md-start">
                 Kickstart Your Journey with <b><span class="text-warning">
-                    Ameotech
+                    Pratibha IT Solution
                   </span></b>
               </h4>
               <p class="text-white m-0 text-center text-md-start">
-                Transform your business and go digital with our innovative
-                web-based solutions.
+                Digitize your business and unlock new possibilities with our cutting-edge web solutions.
               </p>
             </div>
             <div class="col-md-4 text-center text-md-start mt-3 mt-md-0">
@@ -251,9 +238,9 @@ export default function Aboutus() {
       <section class="contact-us common-padding">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-8">
+            <div class="col-lg-8 text-center">
               <div class="contact-img">
-                <img src="https://www.ameotech.com/images/Mask%20group%20(9).png" loading="lazy"/>
+                <img src={let_talk} loading="lazy" className='rounded'/>
               </div>
             </div>
             <div class="col-lg-4">

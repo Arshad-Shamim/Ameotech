@@ -39,7 +39,7 @@ function nav(){
                             <a class="nav-link" href="/aboutus">About Us</a>
                         </li>
 
-                        <li class="nav-item dropdown">
+                        {/* <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Case Studies 
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill ms-1" viewBox="0 0 16 16">
@@ -60,7 +60,7 @@ function nav(){
                             <li class="mb-2"><a class="dropdown-item" href="Solution-services.html">Problems, Solution and Services
                                 </a></li>
                             </ul>
-                        </li>
+                        </li> */}
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
