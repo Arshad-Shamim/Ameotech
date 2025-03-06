@@ -1,6 +1,13 @@
 import React from 'react'
 
 import {nav,footer} from "../Home.jsx"
+import mobile_app from "../../assets/mobile_app.png"
+import kotline from "../../assets/kotline.jpeg"
+import java from '../../assets/java.png'
+import flutter from '../../assets/flutter.webp'
+import Xamarin from '../../assets/Xamarin.png'
+import flask from '../../assets/flask.png'
+import ruby from '../../assets/ruby.png'
 import "../../cascading/services.css"
 
 export default function MobileDev() {
@@ -13,42 +20,67 @@ export default function MobileDev() {
         <section id="section1" className='container-fluid row py-4'>
             <div className='col-md-7 col-12 d-flex'>
                 <div className='mx-auto my-auto col-10 text-white'>
-                    <h1 className='fw-bolder'>Custom Mobile App Solutions to Elevate Your Brand</h1>
-                    <p>Ameotech Informatics develops custom iOS and Android apps tailored to your business goals. We deliver scalable, user-focused solutions for customer engagement, e-commerce, and enterprise needs, ensuring high performance and growth. </p>
+                    <h1 className='fw-bolder'>Tailored Mobile App Solutions to <span className="text-warning">Enhance Your Brand </span></h1>
+                    <p>Pratibha IT Solution develops custom iOS and Android apps tailored to your business goals. We deliver scalable, user-focused solutions for customer engagement, e-commerce, and enterprise needs, ensuring high performance and growth.</p>
                 </div>
             </div>
 
             <div className='col-md-5 col-12 d-flex'>
-                <div className='mx-auto my-auto col-6'>
-                    <img src="https://www.ameotech.com/images/mobile-app-ameotech.png" alt="" className='img-fluid'/>
+                <div className='mx-auto my-auto col-11'>
+                    <img src={mobile_app} alt="" className='img-fluid rounded'/>
                 </div>
             </div>
         </section>
 
-
-        <section class="tech-area common-padding">
-            <div class="container">
-                <div class="row py-3 py-md-0  d-flex align-items-center justify-content-center">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                        <img src="https://www.ameotech.com/images/woman-standing%202.png" loading="lazy" alt="woman-web-dev" class="img-fluid left-section"/>
+        <section id="tech-div-section" class="common-padding">
+                <div class="container">
+                    <div id="tech-div">
+                        <h2 class="common-headings">Technologies We Use</h2>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 tech-text" id="right-tech-web">
-                        <h1 id="use-tech">Technologies We Use to Build Powerful Mobile Apps Solutions</h1>
-                        <img src="https://www.ameotech.com/images/tech-images-all.svg" loading="lazy" alt="web-development-all" class="img-fluid right-section"/>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/react-native.webp" alt="react-native" class="img-fluid" height="70"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src={kotline} alt="python-logo" class="img-fluid" id="python-img"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src={java} alt="dotnet" class="img-fluid" style={{maxHeight:"55px"}}/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/Swift-new.webp" alt="Swift" class="img-fluid"/>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/IOS-new.webp" alt="IOS" class="img-fluid"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/Android-new.webp" alt="Android" class="img-fluid"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src={flutter} alt="Ionic" class="img-fluid"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src={Xamarin} alt="Flutter" class="img-fluid" style={{maxHeight:"55px"}}/>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src={flask} alt="django-logo-positive" class="img-fluid" style={{maxHeight:"55px"}}/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/mongodb-logo.svg" alt="mongodb-logo" class="img-fluid"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src={ruby} alt="aws" class="img-fluid" id="aws-img"/>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center border-column">
+                        <img src="https://www.ameotech.com/images/sql-logo.svg" alt="Flutter" class="img-fluid"/>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div className='container-fluid my-4'>
-                <div className='col-md-11 col-12  text-center mx-auto'>
-                    <h1 className='fw-bold'>Leading-Edge Mobile App Development Services We Offer</h1>
-                    <p>We offer cutting-edge mobile app development services, creating custom iOS and Android apps that
-                        deliver seamless user experiences and robust functionality. From concept to launch, we help bring your
-                        ideas to life with innovative, high-performance solutions.
-                    </p>
-                </div>
-            </div>
         </section>
         
         
@@ -68,7 +100,7 @@ export default function MobileDev() {
             <div className='col-md-6 col-12 d-flex'>
                 <div className='col-10 col-md-11  my-md-4 pt-md-3 text-white mx-md-0 mx-auto'>
                     <h2 className='fw-bold'>Mobile App Development</h2>
-                    <p>At Ameotech Informatics, we craft custom iOS and apps that offer seamless, intuitive experiences. From concept to launch, we deliver scalable, high-performance solutions tailored to your business goals. </p>
+                    <p>At Pratibha IT Solution, we craft custom iOS and Android apps that offer seamless, intuitive experiences. From concept to launch, we deliver scalable, high-performance solutions tailored to your business goals.</p>
                 </div>
             </div>
         </section>
@@ -86,13 +118,13 @@ export default function MobileDev() {
                         </div>
                         <div class="col-md-3 mx-auto">
                             <div class="number-count text-center">
-                                <h4>2000+</h4>
+                                <h4>1000+</h4>
                                 <p>Successfully Delivered Software Projects.</p>
                             </div>
                         </div>
                         <div class="col-md-3 mx-auto">
                             <div class="number-count text-center">
-                                <h4>95%</h4>
+                                <h4>97%</h4>
                                 <p>Customer Retention Rate Metrics..</p>
                             </div>
                         </div>
@@ -109,15 +141,10 @@ export default function MobileDev() {
                 <div class="row">
                     <div class="col-lg-12 product-text-web text-center">
                         <h2 id="driving-heading">
-                            Driving Business Success with Mobile-First Excellence
+                            Accelerating Business Growth with Mobile-First Innovation
                         </h2>
                         <p id="drive-para">
-                            We help drive business success by delivering mobile-first
-                            solutions that enhance user experiences and boost engagement. Our
-                            expert team creates high-performance, intuitive apps optimized for
-                            mobile devices, ensuring your business stays ahead in a
-                            mobile-driven world. Let us help you unlock the full potential of
-                            mobile technology to accelerate growth and success.
+                            We empower businesses with mobile-first solutions designed to elevate user experiences and maximize engagement. Our skilled team develops high-performance, intuitive apps optimized for seamless mobile functionality, keeping your business ahead in a mobile-centric world. Unlock the full potential of mobile technology with us to drive growth and success.
                         </p>
                     </div>
                 </div>
@@ -139,10 +166,7 @@ export default function MobileDev() {
                                     <h4 class="mb-0">Cross Platform</h4>
 
                                     <p class="pt-3 card-para">
-                                        Our cross-platform mobile app development ensures your app
-                                        works seamlessly on both iOS and Android, saving time and
-                                        costs while reaching a wider audience. We deliver
-                                        high-quality .
+                                        Our cross-platform mobile app development ensures seamless performance on both iOS and Android, helping you save time and costs while reaching a broader audience. We deliver high-quality, scalable solutions tailored to your business needs.
                                     </p>
                                 </div>
                                 {/* <!-- Image Section --> */}
@@ -160,10 +184,7 @@ export default function MobileDev() {
                                     <h4 class="mb-0">Faster Loads, Better Experience.</h4>
 
                                     <p class="pt-3 card-para">
-                                        Optimizing load times for faster, smoother user experiences. Improve engagement,
-                                        retention, and performance by reducing delays and enhancing overall
-                                        satisfaction. A quicker load time leads to higher user retention and better
-                                        business outcomes.
+                                        Enhancing load times for a faster, more seamless user experience. Reduce delays, boost engagement, and improve retention by optimizing performance. Faster load times drive higher user satisfaction, increased retention, and better business results.
                                     </p>
                                 </div>
                                 {/* <!-- Image Section --> */}
@@ -182,9 +203,7 @@ export default function MobileDev() {
                                         Seamless User Experience Across Devices
                                     </h4>
                                     <p class="pt-3 card-para">
-                                        We create mobile apps that deliver a consistent, intuitive
-                                        experience across all devices. Whether on smartphones or
-                                        desktops..
+                                     We develop mobile apps that provide a seamless, intuitive experience across all devices. Whether on smartphones, tablets, or desktops, our solutions ensure consistency, usability, and high performance.
                                     </p>
                                 </div>
                                 {/* <!-- Image Section --> */}
