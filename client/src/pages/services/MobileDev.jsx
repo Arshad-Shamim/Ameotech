@@ -8,6 +8,9 @@ import flutter from '../../assets/flutter.webp'
 import Xamarin from '../../assets/Xamarin.png'
 import flask from '../../assets/flask.png'
 import ruby from '../../assets/ruby.png'
+import cross_platform from '../../assets/cross_platform.png'
+import faster_load from '../../assets/faster_load.png'
+import user_exprience from '../../assets/user_exprience.png'
 import "../../cascading/services.css"
 
 export default function MobileDev() {
@@ -160,7 +163,7 @@ export default function MobileDev() {
                             <div class="fileds-cards-one d-flex" style={{alignItems:"stretch"}}>
                                 {/* <!-- Content Section --> */}
                                 <div class="image-container">
-                                    <img src="https://www.ameotech.com/images/platform%201.png" loading="lazy" alt="Marketing Manager" class="img-fluid" style={{maxWidth:"100px"}}/>
+                                    <img src={cross_platform} loading="lazy" alt="Marketing Manager" class="img-fluid" style={{maxWidth:"100px"}}/>
                                 </div>
                                 <div class="inner-field-one d-flex flex-column ms-3" style={{flexGrow:"1"}}>
                                     <h4 class="mb-0">Cross Platform</h4>
@@ -178,7 +181,7 @@ export default function MobileDev() {
                             <div class="fileds-cards-one d-flex card-responsive" style={{alignItems:"stretch"}}>
                                 {/* <!-- Content Section --> */}
                                 <div class="image-container">
-                                    <img src="https://www.ameotech.com/images/speed%201.png" loading="lazy" alt="Marketing Manager" class="img-fluid" style={{maxWidth:"100px"}}/>
+                                    <img src={faster_load} loading="lazy" alt="Marketing Manager" class="img-fluid" style={{maxWidth:"100px"}}/>
                                 </div>
                                 <div class="inner-field-one d-flex flex-column ms-3" style={{flexGrow:"1"}}>
                                     <h4 class="mb-0">Faster Loads, Better Experience.</h4>
@@ -196,7 +199,7 @@ export default function MobileDev() {
                             <div class="fileds-cards-one d-flex" style={{alignItems:"stretch"}}>
                                 {/* <!-- Content Section --> */}
                                 <div class="image-container">
-                                    <img src="https://www.ameotech.com/images/ui-design%201.png" loading="lazy" alt="Marketing Manager" class="img-fluid" style={{maxWidth:"100px"}}/>
+                                    <img src={user_exprience} loading="lazy" alt="Marketing Manager" class="img-fluid" style={{maxWidth:"100px"}}/>
                                 </div>
                                 <div class="inner-field-one d-flex flex-column ms-3" style={{flexGrow:"1"}}>
                                     <h4 class="mb-0">

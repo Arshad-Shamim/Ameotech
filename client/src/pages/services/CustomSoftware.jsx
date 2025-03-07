@@ -89,7 +89,7 @@ export default function CustomSoftware() {
             <div className='col-md-6 col-12 d-flex'>
                 <div className='col-10 col-md-11  my-md-4 pt-md-3 text-white mx-md-0 mx-auto'>
                     <h2 className='fw-bold'>Mobile App Development</h2>
-                    <p>At Ameotech Informatics, we craft custom iOS and apps that offer seamless, intuitive experiences. From concept to launch, we deliver scalable, high-performance solutions tailored to your business goals. </p>
+                    <p>At Pratibha IT Solution, we craft custom iOS and apps that offer seamless, intuitive experiences. From concept to launch, we deliver scalable, high-performance solutions tailored to your business goals.</p>
                 </div>
             </div>
         </section>
@@ -107,13 +107,13 @@ export default function CustomSoftware() {
                         </div>
                         <div class="col-md-3 mx-auto">
                             <div class="number-count text-center">
-                                <h4>2000+</h4>
+                                <h4>1000+</h4>
                                 <p>Successfully Delivered Software Projects.</p>
                             </div>
                         </div>
                         <div class="col-md-3 mx-auto">
                             <div class="number-count text-center">
-                                <h4>95%</h4>
+                                <h4>97%</h4>
                                 <p>Customer Retention Rate Metrics..</p>
                             </div>
                         </div>
