@@ -1,6 +1,12 @@
 import React from 'react'
 
 import {nav,footer} from '../Home.jsx'
+import discussion from '../../assets/discussion.jpg'
+import discussion2 from '../../assets/discussion2.jpg'
+import fashion from '../../assets/fashion.png'
+import one from '../../assets/one2.png'
+import two from '../../assets/two2.png'
+import three from '../../assets/three2.png'
 
 export default function DigitalMarketing() {
   return (
@@ -13,9 +19,9 @@ export default function DigitalMarketing() {
 
         <div className='col-md-10 py-5 col-11 mx-auto'>
           <h1 className='fw-bold text-warning text-uppercase'>Digital Marketing Agency</h1>
-          <h3>The best solutions for your business.</h3>
+          <h3>Top Strategies to Elevate Your Business.</h3>
 
-          <img src="https://www.ameotech.com/images/digital-hero.svg" alt="loading..." className='my-4'/>
+          <img src={discussion} alt="loading..." className='my-4 rounded' style={{height:"70vh",width:"90vw"}}/>
         </div>
       </section>
 
@@ -23,12 +29,12 @@ export default function DigitalMarketing() {
         <div className='col-md-10 col-12 row mx-auto'>
           <div className='col-md-7 col-11 mx-auto'>
             <h1 className='text-uppercase text-danger fw-bold'>Services and prices </h1>
-            <p>We deliver a diverse range of solutions to help businesses effectively showcase and elevate their products or services in today’s competitive market</p>
+            <p>We provide a variety of solutions to help businesses successfully present and enhance their products or services in the modern competitive landscape.</p>
           </div>
 
           <div className='col-md-5 col-11 mx-auto'>
             <div className='col-11 mx-auto'>
-              <img src="https://www.ameotech.com/images/service-people-img.png" alt=""/>
+              <img src={discussion2} alt="" className='rounded'/>
             </div>
           </div>
         </div>
@@ -40,7 +46,7 @@ export default function DigitalMarketing() {
             <div class="col-md-12 mb-5">
               <div class="d-flex justify-content-between">
                 <div class="num-image">
-                  <img src="https://www.ameotech.com/images/001.png" loading="lazy"/>
+                  <img src={one} loading="lazy"/>
                 </div>
             
                 <div class="col-md-8 ms-2 text-white">
@@ -48,8 +54,7 @@ export default function DigitalMarketing() {
                     Branding Development
                   </h2>
                   <p class="mb-4 info-para" id="carer-para-five">
-                    Branding development involves creating a unique identity for your business,
-                    including logo design, brand values, messaging, and visual style.
+                    Brand development focuses on crafting a distinct identity for your business, encompassing logo design, core values, messaging, and visual aesthetics.
                   </p>
                   {/* <!-- Hidden content initially --> */}
                   <p class="mb-4 info-para additional-content d-none" id="additional-content">
@@ -69,13 +74,12 @@ export default function DigitalMarketing() {
             <div class="col-md-12 mb-5">
               <div class="d-flex justify-content-between">
                 <div class="num-image">
-                  <img src="https://www.ameotech.com/images/002.png"/>
+                  <img src={two}/>
                 </div>
                 <div class="col-md-8 ms-2 text-white">
                   <h2 class="carer-headings mb-3">Creative Services</h2>
                   <p class="mb-4 info-para" id="carer-para-one">
-                    Our creative services focus on bringing your ideas to life through innovative design, content creation, and visual storytelling.
-                  </p>
+                    Our creative solutions aim to transform your ideas into reality through cutting-edge design, compelling content, and engaging visual storytelling.                  </p>
                   {/* <!-- Hidden content initially --> */}
                   <p class="mb-4 info-para additional-content d-none" id="additional-content-two">
                     From graphic design to video production, we help craft engaging and impactful materials that resonate with your audience. Contact us to explore how our services can elevate your brand's presence.
@@ -92,7 +96,7 @@ export default function DigitalMarketing() {
             <div class="col-md-12 mb-5">
               <div class="d-flex justify-content-between">
                 <div class="num-image">
-                  <img src="https://www.ameotech.com/images/003.png"/>
+                  <img src={three}/>
 
                   {/* <!-- <img class="me-5" id="margin-add" src="./images/digital-marketing-team.svg"
                     alt="digital-marketing-team" /> --> */}
@@ -100,8 +104,7 @@ export default function DigitalMarketing() {
                 <div class="col-md-8 ms-2 text-white">
                   <h2 class="carer-headings mb-3">Digital Marketing</h2>
                   <p class="mb-3 info-para" id="carer-para-two">
-                    Our digital marketing services help you reach and engage your target audience online. Through strategies like SEO, social media marketing, PPC advertising, and email campaigns, we drive traffic, boost conversions, and build brand awareness to grow your business in the digital space.
-                  </p>
+                    Our online marketing services enable you to connect with and engage your target audience effectively. Using strategies such as SEO, social media marketing, PPC advertising, and email campaigns, we enhance traffic, increase conversions, and strengthen brand visibility to help your business thrive in the digital world.                  </p>
                   {/* <!-- Additional content hidden initially --> */}
                   <div id="additional-content-three" class="d-none">
                     <h4>
@@ -143,24 +146,21 @@ export default function DigitalMarketing() {
       
         <div class="row align-items-center justify-content-center">
           <div class="col-md-6 text-center text-lg-start">
-            <img src="https://www.ameotech.com/images/fashion-girl-new.png" alt="fashion-girl-new" id="girl-digital"/>
+            <img src={fashion} alt="fashion-girl-new" id="girl-digital"/>
           </div>
           <div class="col-md-6">
             <h3 class="display-4 fw-bold lh-1 text-body-emphasis digital-text" id="fashion-house-heading">
-              Fashion House &amp; e-Commerce From Click to Conversion
+              Fashion Brand &amp; Online Store Turning Clicks into Customers
             </h3>
             <p class="seam-para digital-text text-center text-md-start">
               <strong class="portfolio-subtitle">Challenge:</strong><br/>
-              Despite substantial traffic driving visitors to the website, the client faced a significant issue with low conversion rates. While the site attracted a steady stream of visitors, these interactions weren't translating into sales, leaving overall revenue far below expectations.
-            </p>
+              Although the website received a high volume of traffic, the client struggled with low conversion rates. Despite a consistent flow of visitors, these interactions weren’t converting into sales, resulting in revenue falling short of expectations.</p>
             <p class="seam-para digital-text text-center text-md-start">
               <strong class="portfolio-subtitle">Solutions:</strong><br/>
-              We optimized the website’s user experience, simplified navigation, and improved mobile functionality. Through A/B testing, better calls-to-action, and targeted ads, we re-engaged visitors. Product pages were enhanced with compelling descriptions, images, and reviews to boost conversions.
-            </p>
+              We enhanced the website’s user experience by streamlining navigation and optimizing mobile responsiveness. Through A/B testing, stronger calls-to-action, and strategic advertising, we re-engaged visitors. Additionally, product pages were improved with persuasive descriptions, high-quality images, and customer reviews to increase conversions.            </p>
             <p class="seam-para digital-text text-center text-md-start">
               <strong class="portfolio-subtitle">Results:</strong><br/>
-              As a result, conversion rates increased by 35% in two months, driving a 50% boost in revenue. Improved user experience and targeted marketing turned traffic into loyal, repeat customers.
-            </p>
+              As a result, conversion rates rose by 35% within two months, leading to a 50% increase in revenue. Enhanced user experience and strategic marketing successfully transformed website traffic into loyal, returning customers.            </p>
           </div>
         </div>
       </div>
