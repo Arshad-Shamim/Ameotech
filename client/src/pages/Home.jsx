@@ -219,7 +219,7 @@ function footer(){
                     </ul>
                     </div>
 
-                    <div class="col-md-3 mb-3 resource-content">
+                    {/* <div class="col-md-3 mb-3 resource-content">
                     <h5>Case Studies</h5>
                     <ul class="list-unstyled">
                         <li>
@@ -233,7 +233,7 @@ function footer(){
                         <a href="Solution-services.html" class="footer-nav">Problems, Solution and Services </a><br/>
                         </li>
                     </ul>
-                    </div>
+                    </div> */}
 
                     <div class="col-md-3 add-content">
                     <h5>Address</h5>
